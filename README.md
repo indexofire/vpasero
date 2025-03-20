@@ -38,5 +38,5 @@ $ conda activate kaptive
 (kaptive)$ pip install git+https://github.com/klebgenomics/Kaptive.git
 (kaptive)$ git clone https://github.com/indexofire/vpa-serodb.git
 # 预测O抗原
-(kaptive)$ kaptive assembly Vpa_adaptive_db_O.gbk *.fasta -o output
+(kaptive)$ kaptive assembly vpa_adaptive_db_O.gbk *.fasta -o output
 ```
