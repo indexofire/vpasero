@@ -33,10 +33,28 @@ vpa-serodb: Kaptive adaptive **d**ata**b**ses for **V**ibrio **pa**rahaemolyticu
 # 建议使用conda虚拟环境
 $ conda create -n kaptive
 $ conda activate kaptive
-(kaptive)$ conda install pip
+
 # 目前最新的3.0.6b版本的kaptive对基因数量判别有bugs,需要用仓库的最新代码安装
+(kaptive)$ conda install pip pandas
 (kaptive)$ pip install git+https://github.com/klebgenomics/Kaptive.git
+
+# 下载数据库
 (kaptive)$ git clone https://github.com/indexofire/vpa-serodb.git
-# 预测O抗原
-(kaptive)$ kaptive assembly vpa_adaptive_db_O.gbk *.fasta -o output
+
+# 预测OK抗原
+# 预测一个基因组
+(kaptive)$ kaptive assembly vpa_adaptive_db_O.gbk mygenome.fasta -o output
+# 批量预测，获得完整结果
+(kaptive)$ ls *.fna | parallel -k --eta kaptive assembly vpa_adaptive_db_O.gbk {} -t 1 -f O/{/.}_O.fasta -p O_locus_vis > OL.tsv
+(kaptive)$ ls *.fna | parallel -k --eta kaptive assembly vpa_adaptive_db_O.gbk {} -t 1 -f O/{/.}_K.fasta -p K_locus_vis > KL.tsv
+# 合并数据
+(kaptive)$ cat OL.tsv KL.tsv | sort -u > OK_antigen.tsv
+(kaptive)$ python scripts/merge.py -i OK_antigen.tsv -o output
+# 数据结果
+OK_antigen_info.tsv     包含汇总信息
+OK_antigen_detail.tsv   包含分析结果的详细信息，包括基因序列情况
+O_locus_vis/*.png       包含O抗原基因分布可视化图
+K_locus_vis/*.png       包含K抗原基因分布可视化图
+O/*_O.fasta             提取的匹配O抗原序列
+K/*_K.fasta             提取的匹配K抗原序列
 ```
