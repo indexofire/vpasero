@@ -1,0 +1,138 @@
+15:17:21.488 - INFO - UTILS - version=1.10.4
+15:17:21.488 - INFO - UTILS - developer: Oliver Schwengers, github.com/oschwengers
+15:17:21.488 - INFO - UTILS - command: /home/mark/.mamba/envs/prokka/bin/bakta --db /home/mark/dbs/bakta/db --compliant --locus OLU4 --prefix OLU4 --locus-tag OLU4 --output OLU4 --threads 12 --force OLU4.fna
+15:17:21.488 - INFO - UTILS - local time: 2025-03-20 15:17:21
+15:17:21.489 - INFO - UTILS - machine: type=, cores=16
+15:17:21.489 - INFO - UTILS - system: type=Linux, release=6.13.7-arch1-1
+15:17:21.489 - INFO - UTILS - python: version=3.11.11, implementation=CPython
+15:17:21.489 - INFO - CONFIG - threads=12
+15:17:21.489 - INFO - CONFIG - verbose=False
+15:17:21.489 - INFO - CONFIG - debug=False
+15:17:21.489 - INFO - CONFIG - database: type=parameter, path=/home/mark/dbs/bakta/db
+15:17:21.489 - INFO - CONFIG - tmp-path=/tmp/tmp8h0pk326
+15:17:21.489 - INFO - CONFIG - genome-path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4.fna
+15:17:21.489 - INFO - CONFIG - min_contig_length=1
+15:17:21.490 - INFO - CONFIG - prefix=OLU4
+15:17:21.490 - INFO - CONFIG - output-path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4
+15:17:21.490 - INFO - CONFIG - force=True
+15:17:21.490 - INFO - CONFIG - genus=None
+15:17:21.490 - INFO - CONFIG - species=None
+15:17:21.490 - INFO - CONFIG - strain=None
+15:17:21.490 - INFO - CONFIG - plasmid=None
+15:17:21.490 - INFO - CONFIG - complete=False
+15:17:21.490 - INFO - CONFIG - prodigal_tf=None
+15:17:21.490 - INFO - CONFIG - translation_table=11
+15:17:21.490 - INFO - CONFIG - gram=?
+15:17:21.490 - INFO - CONFIG - compliant=True
+15:17:21.490 - INFO - CONFIG - compliant mode! min_contig_length=200
+15:17:21.490 - INFO - CONFIG - meta=False
+15:17:21.490 - INFO - CONFIG - locus=OLU4
+15:17:21.490 - INFO - CONFIG - locus-tag=OLU4
+15:17:21.490 - INFO - CONFIG - locus-tag-increment=1
+15:17:21.490 - INFO - CONFIG - keep_contig_headers=False
+15:17:21.490 - INFO - CONFIG - replicon-table=None
+15:17:21.490 - INFO - CONFIG - regions=None
+15:17:21.490 - INFO - CONFIG - skip-tRNA=False
+15:17:21.490 - INFO - CONFIG - skip-tmRNA=False
+15:17:21.490 - INFO - CONFIG - skip-rRNA=False
+15:17:21.490 - INFO - CONFIG - skip-ncRNA=False
+15:17:21.490 - INFO - CONFIG - skip-ncRNA-region=False
+15:17:21.490 - INFO - CONFIG - skip-CRISPR=False
+15:17:21.490 - INFO - CONFIG - skip-CDS=False
+15:17:21.490 - INFO - CONFIG - skip-pseudo=False
+15:17:21.490 - INFO - CONFIG - skip-sORF=False
+15:17:21.490 - INFO - CONFIG - skip-gap=False
+15:17:21.490 - INFO - CONFIG - skip-ori=False
+15:17:21.490 - INFO - CONFIG - skip-filter=False
+15:17:21.490 - INFO - CONFIG - skip-plot=False
+15:17:21.490 - INFO - DB - detected: major=5, minor=1, type=full, date=2024-01-19
+15:17:21.542 - INFO - UTILS - dependency: tool=tRNAscan-SE, version=v2.0.12, path=/home/mark/.mamba/envs/prokka/bin/tRNAscan-SE
+15:17:21.543 - INFO - UTILS - dependency: tool=Aragorn, version=v1.2.41, path=/home/mark/.mamba/envs/prokka/bin/aragorn
+15:17:21.545 - INFO - UTILS - dependency: tool=CMscan, version=v1.1.4, path=/home/mark/.mamba/envs/prokka/bin/cmscan
+15:17:21.546 - INFO - UTILS - dependency: tool=PilerCR, version=v1.6.0, path=/home/mark/.mamba/envs/prokka/bin/pilercr
+15:17:21.591 - INFO - UTILS - dependency: tool=Pyrodigal, version=v3.6.3, path=/home/mark/.mamba/envs/prokka/bin/python3.11
+15:17:21.593 - INFO - UTILS - dependency: tool=AMRFinderPlus, version=v4.0.3, path=/home/mark/.mamba/envs/prokka/bin/amrfinder
+15:17:21.638 - INFO - UTILS - dependency: tool=Pyhmmer, version=v0.11.0, path=/home/mark/.mamba/envs/prokka/bin/python3.11
+15:17:21.640 - INFO - UTILS - dependency: tool=Diamond, version=v2.1.10, path=/home/mark/.mamba/envs/prokka/bin/diamond
+15:17:21.699 - INFO - UTILS - dependency: tool=Blastn, version=v2.14.0, path=/home/mark/.mamba/envs/prokka/bin/blastn
+15:17:22.294 - INFO - UTILS - dependency: tool=pyCirclize, version=v1.8.0, path=/home/mark/.mamba/envs/prokka/bin/python3.11
+15:17:22.296 - INFO - FASTA - imported: id=OLU4, length=11975, description=MIQW01000032.1:168195-180169, genomic=True, dna=True
+15:17:22.296 - INFO - MAIN - imported sequences=1
+15:17:22.297 - INFO - UTILS - qc: revised sequence: id=OLU4_1, orig-id=OLU4, type=contig, complete=False, topology=linear, name=, description='[gcode=11] [topology=linear]', orig-description='MIQW01000032.1:168195-180169'
+15:17:22.297 - INFO - FASTA - write genome sequences: path=/tmp/tmp8h0pk326/sequences.fna, description=False, wrap=False
+15:17:22.425 - INFO - T_RNA - predicted=0
+15:17:22.428 - INFO - TM_RNA - predicted=0
+15:17:22.444 - INFO - R_RNA - predicted=0
+15:17:22.596 - INFO - NC_RNA - predicted=0
+15:17:22.620 - INFO - NC_RNA_REGION - predicted=0
+15:17:22.623 - INFO - CRISPR - predicted=0
+15:17:22.623 - INFO - CDS - skip creation of prodigal training info object: meta=True, closed=True
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=1, stop=480, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=None
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=477, stop=1508, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=1510, stop=2292, strand=-, frame=3, truncated=no, start-type=TTG, RBS-motif=AGGA
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=2331, stop=3386, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=3490, stop=3894, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=3922, stop=4638, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=GGA/GAG/AGG
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=4642, stop=5367, strand=+, frame=1, truncated=no, start-type=ATG, RBS-motif=AGGA
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=5369, stop=5836, strand=+, frame=2, truncated=no, start-type=ATG, RBS-motif=AGxAGG/AGGxGG
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=5904, stop=6602, strand=+, frame=3, truncated=no, start-type=ATG, RBS-motif=AGGA
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=6597, stop=7592, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+15:17:22.632 - INFO - CDS - seq=OLU4_1, start=7596, stop=8861, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=8855, stop=9913, strand=-, frame=2, truncated=no, start-type=ATG, RBS-motif=None
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=9910, stop=10899, strand=-, frame=3, truncated=no, start-type=ATG, RBS-motif=None
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=11034, stop=11975, strand=-, frame=1, truncated=no, start-type=ATG, RBS-motif=None
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=1, stop=480, strand=-, nt=[ATGAAAAAAG..AGCCAAATGA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=477, stop=1508, strand=-, nt=[ATGAACATTT..TTTACGATGA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=1510, stop=2292, strand=-, nt=[TTGTCTAAAC..AGAGCAATAA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=2331, stop=3386, strand=-, nt=[ATGTTCACTT..ATATCAGTAA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=3490, stop=3894, strand=+, nt=[ATGTCAAATA..TTATCTCTAA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=3922, stop=4638, strand=+, nt=[ATGATTCAAA..TAAAGGATAG]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=4642, stop=5367, strand=+, nt=[ATGCGTACGT..GGTCGAATAG]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=5369, stop=5836, strand=+, nt=[ATGCTTAACC..AGAAAGTTAA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=5904, stop=6602, strand=+, nt=[ATGATTGATG..ATTGTCATAG]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=6597, stop=7592, strand=-, nt=[ATGGATCTTT..AGACCTATGA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=7596, stop=8861, strand=-, nt=[ATGCTAATTC..AACTTTATAA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=8855, stop=9913, strand=-, nt=[ATGAAAAAAA..TTCATGCTAA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=9910, stop=10899, strand=-, nt=[ATGACAGCAA..AAGCAAATGA]
+15:17:22.633 - INFO - CDS - seq=OLU4_1, start=11034, stop=11975, strand=-, nt=[ATGATCATCG..AAACAGTTAA]
+15:17:22.633 - INFO - CDS - predicted=14
+15:17:22.652 - INFO - ORF - discarded=0
+15:17:22.654 - INFO - UPS - looked-up=14
+15:17:22.655 - INFO - IPS - looked-up=14
+15:17:22.657 - INFO - PSC - looked-up=14
+15:17:22.659 - INFO - PSCC - looked-up=14
+15:17:22.659 - INFO - ORF - write internal aa seqs: # seqs=14, path=/tmp/tmp8h0pk326/cds.expert.faa
+15:17:23.060 - INFO - EXPERT-AMRFINDER - found=0
+15:17:23.783 - INFO - EXPERT_AA_SEQ - found=0
+15:17:23.790 - INFO - S_ORF - predicted=173
+15:17:23.825 - INFO - S_ORF - sORF filter: # valid=11, # discarded=162
+15:17:23.843 - INFO - ORF - discarded=0
+15:17:23.845 - INFO - UPS - looked-up=0
+15:17:23.845 - INFO - IPS - looked-up=0
+15:17:23.845 - INFO - ORF - write internal aa seqs: # seqs=11, path=/tmp/tmp8h0pk326/sorf.faa
+15:17:23.894 - INFO - S_ORF - found=0
+15:17:23.894 - INFO - PSC - looked-up=0
+15:17:23.894 - INFO - PSCC - looked-up=0
+15:17:24.670 - INFO - ORI - predicted=0
+15:17:24.765 - INFO - ORI - predicted=0
+15:17:24.765 - INFO - UTILS - generated sequence tag prefix: prefix=FHECDBFMDC, length=10, MD5=F1ECDBF6DC86332293E15BF5DCE4F8D3
+15:17:24.765 - INFO - MAIN - selected features=14
+15:17:24.765 - INFO - MAIN - locus tag prefix=OLU4
+15:17:24.766 - INFO - UTILS - genome-size=11975
+15:17:24.766 - INFO - UTILS - GC=0.421
+15:17:24.766 - INFO - UTILS - N=0.000
+15:17:24.766 - INFO - UTILS - N50=11975
+15:17:24.766 - INFO - UTILS - N90=11975
+15:17:24.766 - INFO - UTILS - coding-ratio=0.970
+15:17:24.766 - INFO - TSV - write feature tsv: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.tsv
+15:17:24.766 - INFO - GFF - write features: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.gff3
+15:17:24.767 - INFO - INSDC - write GenBank: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.gbff
+15:17:24.768 - INFO - INSDC - write EMBL: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.embl
+15:17:24.769 - INFO - FASTA - write genome sequences: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.fna, description=True, wrap=True
+15:17:24.769 - INFO - FASTA - write feature nucleotide sequences: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.ffn
+15:17:24.769 - INFO - FASTA - write translated CDS/sORF: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.faa
+15:17:24.770 - INFO - TSV - write tsv: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.inference.tsv
+15:17:26.156 - INFO - TSV - write hypothetical tsv: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.hypotheticals.tsv
+15:17:26.156 - INFO - FASTA - write translated CDS/sORF: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.hypotheticals.faa
+15:17:26.156 - INFO - JSON - write JSON: path=/home/mark/repos/github/vpa-serodb/data/OL/OLU4/OLU4.json
+15:17:26.161 - INFO - MAIN - removed tmp dir: /tmp/tmp8h0pk326

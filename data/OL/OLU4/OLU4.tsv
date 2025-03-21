@@ -1,0 +1,20 @@
+# Annotated with Bakta
+# Software: v1.10.4
+# Database: v5.1, full
+# DOI: 10.1099/mgen.0.000685
+# URL: github.com/oschwengers/bakta
+#Sequence Id	Type	Start	Stop	Strand	Locus Tag	Gene	Product	DbXrefs
+OLU4_1	cds	1	480	-	OLU4_001	coaD	pantetheine-phosphate adenylyltransferase	EC:2.7.7.3, GO:0004595, GO:0005524, GO:0005737, GO:0015937, RefSeq:WP_039974587.1, SO:0001217, UniParc:UPI0003A3CC28, UniRef:UniRef100_A0A812F1V5, UniRef:UniRef50_Q6LVM8, UniRef:UniRef90_A7MSN5
+OLU4_1	cds	477	1508	-	OLU4_002		Glycosyl transferase family 1 domain-containing protein	RefSeq:WP_069542509.1, SO:0001217, UniParc:UPI00084B6497, UniRef:UniRef100_UPI00084B6497, UniRef:UniRef50_A7MSN6, UniRef:UniRef90_A7MSN6
+OLU4_1	cds	1510	2292	-	OLU4_003		Glycosyltransferase 2-like domain-containing protein	EC:2.4.1.-, KEGG:K12984, RefSeq:WP_020195871.1, SO:0001217, UniParc:UPI0003700901, UniRef:UniRef100_A0A0C1YZS6, UniRef:UniRef50_A0A0A2XR29, UniRef:UniRef90_A7MSN7
+OLU4_1	cds	2331	3386	-	OLU4_004		ADP-heptose--LPS heptosyltransferase I	RefSeq:WP_069542510.1, SO:0001217, UniParc:UPI00084AC902, UniRef:UniRef100_UPI00084AC902, UniRef:UniRef50_A0A1R4LKX9, UniRef:UniRef90_A7MSN8
+OLU4_1	cds	3490	3894	+	OLU4_005		Diacylglycerol kinase	RefSeq:WP_020195869.1, SO:0001217, UniParc:UPI00037B84C3, UniRef:UniRef100_A0A0C1VKY2, UniRef:UniRef50_I2BDW8, UniRef:UniRef90_K5UL82
+OLU4_1	cds	3922	4638	+	OLU4_006		3-deoxy-D-manno-octulosonic acid kinase	EC:2.7.1.166, GO:0016773, RefSeq:WP_069542511.1, SO:0001217, UniParc:UPI00084B4270, UniRef:UniRef100_UPI00084B4270, UniRef:UniRef50_Q9KVB9, UniRef:UniRef90_A7MSP0
+OLU4_1	cds	4642	5367	+	OLU4_007		UDP-glucose--lipooligosaccharide glucosyltransferase	RefSeq:WP_069542512.1, SO:0001217, UniParc:UPI00084B7A9B, UniRef:UniRef100_UPI00084B7A9B, UniRef:UniRef50_K7RXR2, UniRef:UniRef90_A0A0C1ZC42
+OLU4_1	cds	5369	5836	+	OLU4_008		Serine acetyltransferase	RefSeq:WP_069542513.1, SO:0001217, UniParc:UPI00084B406D, UniRef:UniRef100_UPI00084B406D, UniRef:UniRef50_A0A2P7R500, UniRef:UniRef90_A7MSM4
+OLU4_1	cds	5904	6602	+	OLU4_009		N-acylneuraminate cytidylyltransferase	RefSeq:WP_009707930.1, SO:0001217, UniParc:UPI00028D0F76, UniRef:UniRef100_K5UKR8, UniRef:UniRef50_K5UKR8, UniRef:UniRef90_K5UKR8
+OLU4_1	cds	6597	7592	-	OLU4_010		Glycosyltransferase 52 family protein	RefSeq:WP_069542514.1, SO:0001217, UniParc:UPI00084A8779, UniRef:UniRef100_UPI00084A8779, UniRef:UniRef50_A0A2A9F288, UniRef:UniRef90_A0A812FE82
+OLU4_1	cds	7596	8861	-	OLU4_011	waaA	lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase	EC:2.4.99.12, GO:0016740, RefSeq:WP_069542515.1, SO:0001217, UniParc:UPI00084ADE9D, UniRef:UniRef100_UPI00084ADE9D, UniRef:UniRef50_A0A0H3AKX4, UniRef:UniRef90_K5U8J5
+OLU4_1	cds	8855	9913	-	OLU4_012	waaF	lipopolysaccharide heptosyltransferase II	GO:0008920, GO:0009244, RefSeq:WP_069542516.1, SO:0001217, UniParc:UPI00084B0C76, UniRef:UniRef100_UPI00084B0C76, UniRef:UniRef50_A0A3Q0L2L2, UniRef:UniRef90_A7MSL9
+OLU4_1	cds	9910	10899	-	OLU4_013	lpxM	lauroyl-Kdo(2)-lipid IV(A) myristoyltransferase	COG:COG1560, COG:I, EC:2.3.1.243, GO:0009245, GO:0016746, KEGG:K02560, RefSeq:WP_069542517.1, SO:0001217, UniParc:UPI00084B96D0, UniRef:UniRef100_UPI00084B96D0, UniRef:UniRef50_A0A099LR58, UniRef:UniRef90_A0A0L8T4P5
+OLU4_1	cds	11034	11975	-	OLU4_014	rfaD	ADP-glyceromanno-heptose 6-epimerase	COG:COG0451, COG:M, EC:5.1.3.20, GO:0005975, GO:0008712, GO:0009244, GO:0050661, GO:0097171, KEGG:K03274, RefSeq:WP_021451714.1, SO:0001217, UniParc:UPI00038E1AC6, UniRef:UniRef100_A0A1E4UD32, UniRef:UniRef50_Q7VZF5, UniRef:UniRef90_Q87T56

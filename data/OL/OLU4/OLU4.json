@@ -1,0 +1,898 @@
+{
+    "genome": {
+        "genus": null,
+        "species": null,
+        "strain": null,
+        "taxon": null,
+        "complete": false,
+        "gram": "?",
+        "translation_table": 11
+    },
+    "stats": {
+        "size": 11975,
+        "gc": 0.4210438413361169,
+        "n_ratio": 0.0,
+        "n50": 11975,
+        "n90": 11975,
+        "coding_ratio": 0.9702713987473904
+    },
+    "features": [
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 1,
+            "stop": 480,
+            "strand": "-",
+            "frame": 3,
+            "gene": "coaD",
+            "product": "pantetheine-phosphate adenylyltransferase",
+            "db_xrefs": [
+                "EC:2.7.7.3",
+                "GO:0004595",
+                "GO:0005524",
+                "GO:0005737",
+                "GO:0015937",
+                "RefSeq:WP_039974587.1",
+                "SO:0001217",
+                "UniParc:UPI0003A3CC28",
+                "UniRef:UniRef100_A0A812F1V5",
+                "UniRef:UniRef50_Q6LVM8",
+                "UniRef:UniRef90_A7MSN5"
+            ],
+            "nt": "ATGAAAAAAGTCATTTACCCAGGAACATTTGACCCAATCACTAATGGTCACCTAGATATCATTACTCGTGCCGCAAACATGTTTGATCAAATTATTATCGGTGTCGCAGCAAGTCCTTCGAAAAAAACACTGTTTAGCCTAGAAGAACGAGTAAAACTTGTTGAAGAATCAACAGCGCACTTAAGTAATGTATCAACCGCTGGTTTTAGTGGCTTACTGGTTGATTTTGCTCGTGAGCAAGAAGCAAATGTACTGGTGCGCGGCCTTAGAACAACTGTCGACTTTGAATACGAATTTGGCCTAACGAGCATGTATCGCAAACTGTTACCAGGTGTTGAGAGCGTGTTCCTGACGCCAGCAGAAGAGTATGCTTTTCTCTCTTCTACCATCGTCCGTGAAGTAGCAATCCATGGCGGTGATGTCGAGCAGTTTGTGCCAAAATGTGTTCATACAGCTATCAAAACAAAGGTAGCCAAATGA",
+            "aa": "MKKVIYPGTFDPITNGHLDIITRAANMFDQIIIGVAASPSKKTLFSLEERVKLVEESTAHLSNVSTAGFSGLLVDFAREQEANVLVRGLRTTVDFEYEFGLTSMYRKLLPGVESVFLTPAEEYAFLSSTIVREVAIHGGDVEQFVPKCVHTAIKTKVAK",
+            "aa_hexdigest": "ce65a60818b6b7b6c3e5f58ea2730a90",
+            "start_type": "ATG",
+            "rbs_motif": null,
+            "ups": {
+                "uniparc_id": "UPI0003A3CC28",
+                "ncbi_nrp_id": "WP_039974587.1",
+                "uniref100_id": "UniRef100_A0A812F1V5",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI0003A3CC28",
+                    "RefSeq:WP_039974587.1",
+                    "UniRef:UniRef100_A0A812F1V5"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_A0A812F1V5",
+                "uniref90_id": "UniRef90_A7MSN5"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A7MSN5",
+                "gene": "coaD",
+                "product": "pantetheine-phosphate adenylyltransferase",
+                "ec_ids": [
+                    "2.7.7.3"
+                ],
+                "uniref50_id": "UniRef50_Q6LVM8",
+                "go_ids": [
+                    "GO:0004595",
+                    "GO:0005524",
+                    "GO:0005737",
+                    "GO:0015937"
+                ]
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_Q6LVM8",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_Q6LVM8"
+                ],
+                "product": "Phosphopantetheine adenylyltransferase"
+            },
+            "genes": [
+                "coaD"
+            ],
+            "id": "FHECDBFMDC_1",
+            "locus": "OLU4_001"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 477,
+            "stop": 1508,
+            "strand": "-",
+            "frame": 1,
+            "gene": null,
+            "product": "Glycosyl transferase family 1 domain-containing protein",
+            "db_xrefs": [
+                "RefSeq:WP_069542509.1",
+                "SO:0001217",
+                "UniParc:UPI00084B6497",
+                "UniRef:UniRef100_UPI00084B6497",
+                "UniRef:UniRef50_A7MSN6",
+                "UniRef:UniRef90_A7MSN6"
+            ],
+            "nt": "ATGAACATTTGCCACGTTAACTTAGCTTCTGGATACCATGGTGGCGAGAATCAGACGCTGCAACTCATTAAGCAGCAAGTAAAGCTCGGCTATCAACTGACAGTTGTTGCAAACCCTAAAAGCCCTTTCGCCGATGCGGTAAAAGCGTTAGGCGTTAAAGTGGTATTAGCGAACCACTTTACCAAAGCACACTCAAAATCTATCACTAAGGATTGTGATCTAATCCATGTGCACGAAGGACGTGCCATTTATTGGGCCCTGATCCAACATATGCTCTACGGCAAACCATATATTGTCACTCGCCGAATCGACAATGCATTGAAAAAGAAATGGTTGGCAAACTTAGCCTATTCGAAAGCCTCCGCTGTGGTAGGTTTAAGTACTGAAATAGTTCAGAGAGTGAAAGACGCTTACCCAACTTCAGTAACCTACAAAATCCCAAGTTCACCGGTGACATACCCTGCTAACGCTGAAACTGTACAAGCAATTAGAGACCGCTTCGCAGGCAAATTTATAGTGATACATGGAGCAAACATGCTGAAACATAAAGGCTTCAATGTCACTGTCGACGCGGCAAGGCTGTTAGAAAAATCCGCACCCTTTGTCCATTTTTGTTTGCTAGGTGATGGCTCAGAGAGAGAGGCTCTTGAGTCTCAAGCACAAGGCCTAACTAACATCAGTTTCGAAGGCAAACAAAGCAATATGGGTGATTGGTTTGCTGCGGCAGATTTGCAGGTTCACCCTTCTTACACAGAGGGACTGGGCTCTGTCATTTTGGAAGGTATGGGCTCTGGTTTACCTGTTATAGGTACTAATGCAGGTGGTATCCCTGACATTATCGATCACAATTCAAACGGCTTACTTGTTGAACCAGGTAATGCACAAGAGTTGGCGAATGCAATAATGAAGATCGCTCAAGATGAAAATCTTCAACAAGAATTCATCGCCAACGGGCAAGAGAAACTGAAGTTATTTGATATCAACTACACTGCTAACCAATACGTAGATGTTTACGAGAAAGTTTTACGATGA",
+            "aa": "MNICHVNLASGYHGGENQTLQLIKQQVKLGYQLTVVANPKSPFADAVKALGVKVVLANHFTKAHSKSITKDCDLIHVHEGRAIYWALIQHMLYGKPYIVTRRIDNALKKKWLANLAYSKASAVVGLSTEIVQRVKDAYPTSVTYKIPSSPVTYPANAETVQAIRDRFAGKFIVIHGANMLKHKGFNVTVDAARLLEKSAPFVHFCLLGDGSEREALESQAQGLTNISFEGKQSNMGDWFAAADLQVHPSYTEGLGSVILEGMGSGLPVIGTNAGGIPDIIDHNSNGLLVEPGNAQELANAIMKIAQDENLQQEFIANGQEKLKLFDINYTANQYVDVYEKVLR",
+            "aa_hexdigest": "7165746ff33ba3e73a5bd7eb49c4505e",
+            "start_type": "ATG",
+            "rbs_motif": "GGA/GAG/AGG",
+            "ups": {
+                "uniparc_id": "UPI00084B6497",
+                "ncbi_nrp_id": "WP_069542509.1",
+                "uniref100_id": "UniRef100_UPI00084B6497",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084B6497",
+                    "RefSeq:WP_069542509.1",
+                    "UniRef:UniRef100_UPI00084B6497"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084B6497",
+                "uniref90_id": "UniRef90_A7MSN6"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A7MSN6",
+                "product": "Glycosyl transferase family 1 domain-containing protein",
+                "uniref50_id": "UniRef50_A7MSN6"
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_A7MSN6",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_A7MSN6"
+                ],
+                "product": "Glycosyl transferase family 1 domain-containing protein"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_2",
+            "locus": "OLU4_002"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 1510,
+            "stop": 2292,
+            "strand": "-",
+            "frame": 3,
+            "gene": null,
+            "product": "Glycosyltransferase 2-like domain-containing protein",
+            "db_xrefs": [
+                "EC:2.4.1.-",
+                "KEGG:K12984",
+                "RefSeq:WP_020195871.1",
+                "SO:0001217",
+                "UniParc:UPI0003700901",
+                "UniRef:UniRef100_A0A0C1YZS6",
+                "UniRef:UniRef50_A0A0A2XR29",
+                "UniRef:UniRef90_A7MSN7"
+            ],
+            "nt": "TTGTCTAAACCTACCTTAGCCGTCGCGTTGATCGTAAAAAATGAAGAGAAGCACCTGAAAGCTTGTCTAGACACAGTAAAAGATTGGGTCGATGAGATTGTTCTTCTAGATTCAGGTAGCACTGATACCACTGAAGAAATCGCTAGGCAGTATACAGATAAGTTTTATACCAATTTAGAATGGCCTGGGTTTGGCAAACAACGCCAACTTGCTCAAGACTATGTGGAATCGGATTTTGTGCTTTGGCTGGATGCTGATGAGCGTGTTACCGATGAATTACGCCAAGACATACTCAACGCAATCAGCCAACACTGCGATAAAAACATTTATCGTGTGAACCGACTGACGACAGCCTTTGCAAAAGAGATTCGTTACTCAGGCTGGTCGCCTGATTGGGTGGTACGTTTATACAAAACATCAGAAACGAAATATAACGACGCGCTCGTTCATGAAAGCGTTGTTATTCCCGATGGCTTTAAAGTTGTTTCGTTAAATGGCCGTTTGAAGCATTTTACTTATGAAAAGCTTGGCGAGTACACGCGGAAAACCCAACTGTACATGCAATCTTGGGCAGACCAGCGTGAAGGTAAAAAGTCAGCCTCACTTTTTAGTGCATTTACCCATGGCTTCTTCCGTTTCTTCAAAATGTATATTATTAAACGTGGCTTCTTAGATGGTCGACATGGCTTTTTACTCGCCGTACTAAGTGCAAACACAACCTTTACTCGCTATGCAGACCTGTGGCTGCGTGATTACGTCAAAAAACATAATAAAGAGCAATAA",
+            "aa": "MSKPTLAVALIVKNEEKHLKACLDTVKDWVDEIVLLDSGSTDTTEEIARQYTDKFYTNLEWPGFGKQRQLAQDYVESDFVLWLDADERVTDELRQDILNAISQHCDKNIYRVNRLTTAFAKEIRYSGWSPDWVVRLYKTSETKYNDALVHESVVIPDGFKVVSLNGRLKHFTYEKLGEYTRKTQLYMQSWADQREGKKSASLFSAFTHGFFRFFKMYIIKRGFLDGRHGFLLAVLSANTTFTRYADLWLRDYVKKHNKEQ",
+            "aa_hexdigest": "76658660af1bce4c6ca6080eec70cd06",
+            "start_type": "TTG",
+            "rbs_motif": "AGGA",
+            "ups": {
+                "uniparc_id": "UPI0003700901",
+                "ncbi_nrp_id": "WP_020195871.1",
+                "uniref100_id": "UniRef100_A0A0C1YZS6",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI0003700901",
+                    "RefSeq:WP_020195871.1",
+                    "UniRef:UniRef100_A0A0C1YZS6"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_A0A0C1YZS6",
+                "uniref90_id": "UniRef90_A7MSN7"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A7MSN7",
+                "product": "Glycosyltransferase 2-like domain-containing protein",
+                "ec_ids": [
+                    "2.4.1.-"
+                ],
+                "uniref50_id": "UniRef50_A0A0A2XR29",
+                "kegg_orthology_id": "K12984"
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_A0A0A2XR29",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_A0A0A2XR29"
+                ],
+                "product": "Glycosyltransferase"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_3",
+            "locus": "OLU4_003"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 2331,
+            "stop": 3386,
+            "strand": "-",
+            "frame": 1,
+            "gene": null,
+            "product": "ADP-heptose--LPS heptosyltransferase I",
+            "db_xrefs": [
+                "RefSeq:WP_069542510.1",
+                "SO:0001217",
+                "UniParc:UPI00084AC902",
+                "UniRef:UniRef100_UPI00084AC902",
+                "UniRef:UniRef50_A0A1R4LKX9",
+                "UniRef:UniRef90_A7MSN8"
+            ],
+            "nt": "ATGTTCACTTCTGCCCCTTCTTCACTCTGTATATTGCGTTTATCTGCAATTGGTGATGTTTGCAATACTATCGCGACGGTTCAAGCGATTCAAAAACAATGGCCTGAGACCCATATCACTTGGATTACTGGCAAACTTGAAGCTCAATTGCTACAAGCGATAGATGACGTTGAAGTGATTGTTTTTGATAAAAAAGCAGGACTTGATGGTTACAAATCACTGTGGAAGCAACTTAAAGGACGCGAGTTCGATGCTTTGCTTCATATGCAATATGCCATTCGAGCGAGCGTGGCAACGTTAGGTATTAAAGCAAAATACAAACTTGGCTTCTCTTCTGACCGTAGCCAAGACTTTCAGACTTTGTTCACCAATGTCAAAGTTCCTTCACCAAGCTCTTTGCATGTTGCGGATGGTTTAATGGCGTTTGCCAATCAGATTGGAGTACCTCAATCGGAACTATCTTGGTCTTTATCTTACTCAGAAGAGGATAGTACTTGGGCTAAGGCAAAACTAGATAAGGTGAAACCAAACTTGTTATTGGTTCCCGGAGCAAGTAAAGCTTACAAGAACTGGAACGCGAAGGGTTATGTGGATGTCATTAATCATGCGCGAGAGAAAGGCTGGAATGTCATACTAGCGGGCAGTCCTGCAAAGGTCGAAGTTGACCTAGCAAATGAGATTCAAGCTTTGTTGCGTGAACCTTGTTTAAACTTAGTAGGAGAAAGCTCCATCCTACAAATGCTAGCTTTAATTGATACTGTGCAGATGGTGATAGCACCAGATACTGGCCCAGCCCACATGGCGAGTGCAATGAACACACCGATTATTGGTTTATATGCCCATCACAATCCTATTCGAGTAGGCCCTTATCGCTTTTTAAAGTATGCCGTATCTGTATATGAAGAAGTGATTCTTGCAGAAACAGGAAAGACGAGCCAAGAATTAAGTTGGCGAACCCGAGCAAAGGATGAAGCCGCAATGAACCGCATTACAAGCGACCGTGTCGTCGCTATGTTCGACCAAGTCGTAGAAGATTTGTATCCACAATATCAGTAA",
+            "aa": "MFTSAPSSLCILRLSAIGDVCNTIATVQAIQKQWPETHITWITGKLEAQLLQAIDDVEVIVFDKKAGLDGYKSLWKQLKGREFDALLHMQYAIRASVATLGIKAKYKLGFSSDRSQDFQTLFTNVKVPSPSSLHVADGLMAFANQIGVPQSELSWSLSYSEEDSTWAKAKLDKVKPNLLLVPGASKAYKNWNAKGYVDVINHAREKGWNVILAGSPAKVEVDLANEIQALLREPCLNLVGESSILQMLALIDTVQMVIAPDTGPAHMASAMNTPIIGLYAHHNPIRVGPYRFLKYAVSVYEEVILAETGKTSQELSWRTRAKDEAAMNRITSDRVVAMFDQVVEDLYPQYQ",
+            "aa_hexdigest": "d96c2859af99f6ede86c7e0d212be675",
+            "start_type": "ATG",
+            "rbs_motif": null,
+            "ups": {
+                "uniparc_id": "UPI00084AC902",
+                "ncbi_nrp_id": "WP_069542510.1",
+                "uniref100_id": "UniRef100_UPI00084AC902",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084AC902",
+                    "RefSeq:WP_069542510.1",
+                    "UniRef:UniRef100_UPI00084AC902"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084AC902",
+                "uniref90_id": "UniRef90_A7MSN8"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A7MSN8",
+                "product": "ADP-heptose--LPS heptosyltransferase I",
+                "uniref50_id": "UniRef50_A0A1R4LKX9"
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_A0A1R4LKX9",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_A0A1R4LKX9"
+                ],
+                "product": "Lipopolysaccharide core heptosyltransferase RfaQ"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_4",
+            "locus": "OLU4_004"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 3490,
+            "stop": 3894,
+            "strand": "+",
+            "frame": 1,
+            "gene": null,
+            "product": "Diacylglycerol kinase",
+            "db_xrefs": [
+                "RefSeq:WP_020195869.1",
+                "SO:0001217",
+                "UniParc:UPI00037B84C3",
+                "UniRef:UniRef100_A0A0C1VKY2",
+                "UniRef:UniRef50_I2BDW8",
+                "UniRef:UniRef90_K5UL82"
+            ],
+            "nt": "ATGTCAAATAGCCAACAACATCAATCTCCAAATTCAGGAAAACCTGGAAACACGGGTTTAAAGCGTATCATCAAAGCGACGGGATATTCTGCGAAAGGCTTAAGGGCGGCGTTTAAACACGAAGCGGCGATTAGACAAGAGCTTGTGATGCTAGCCATTGCCATCGTTTTGGTCTGTGTTTTTGACTTGAGTGTCATAGAACGTATTTTGATGCTCGGTGTCGTCGTTCTTGTTCTGATTGTTGAGTTGATCAATTCCGCGATAGAGGCGGTGGTGGATCGCGTGGGCGTCGAACATCATGAATTGAGTGGGCGCGCAAAAGATATCGGCTCAGCGGCAGTTATGGTGGCATTAGCGTTCGCTGGATTCACATGGCTGTATATTTTGCTTAGTCTTTATCTCTAA",
+            "aa": "MSNSQQHQSPNSGKPGNTGLKRIIKATGYSAKGLRAAFKHEAAIRQELVMLAIAIVLVCVFDLSVIERILMLGVVVLVLIVELINSAIEAVVDRVGVEHHELSGRAKDIGSAAVMVALAFAGFTWLYILLSLYL",
+            "aa_hexdigest": "37c81e515b721e33355c1bd57887cb9d",
+            "start_type": "ATG",
+            "rbs_motif": "GGA/GAG/AGG",
+            "ups": {
+                "uniparc_id": "UPI00037B84C3",
+                "ncbi_nrp_id": "WP_020195869.1",
+                "uniref100_id": "UniRef100_A0A0C1VKY2",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00037B84C3",
+                    "RefSeq:WP_020195869.1",
+                    "UniRef:UniRef100_A0A0C1VKY2"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_A0A0C1VKY2",
+                "uniref90_id": "UniRef90_K5UL82"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_K5UL82",
+                "product": "Diacylglycerol kinase",
+                "uniref50_id": "UniRef50_I2BDW8"
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_I2BDW8",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_I2BDW8"
+                ],
+                "product": "Diacylglycerol kinase"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_5",
+            "locus": "OLU4_005"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 3922,
+            "stop": 4638,
+            "strand": "+",
+            "frame": 1,
+            "gene": null,
+            "product": "3-deoxy-D-manno-octulosonic acid kinase",
+            "db_xrefs": [
+                "EC:2.7.1.166",
+                "GO:0016773",
+                "RefSeq:WP_069542511.1",
+                "SO:0001217",
+                "UniParc:UPI00084B4270",
+                "UniRef:UniRef100_UPI00084B4270",
+                "UniRef:UniRef50_Q9KVB9",
+                "UniRef:UniRef90_A7MSP0"
+            ],
+            "nt": "ATGATTCAAACTTCACAACAAGGTAATTGCACGATTTGGTTTGATGATGAAATCATTTCAGACCCAACATTGCCATTGTTTGATGCCGGCTATTGGCAAGAACAAGGTAAAATCTTGGGCAGCGCTTCTGGTCGGGGAACGACCTGGTTTGTTCAACTCGACTCTATGCAAGCAGCCCTTCGACATTATCGCCGAGGTGGTCTATTCGGCAAACTGGTGAAAGACCAATACTGGTTTTCTGGTTGGGAACAAACTCGCAGTGCTCAGGAGTTAAATCTTTTGCAGATTTTGATAGATGCCGGCGTCAATGTTCCTCGTCCGATTGCCGCGCAAGCAGTTAAAACAGGTTTGACTTACCAAGCGGATCTTCTCAGCGAAAGAATTCCAAATGCCAGAGACTTGGTCAGTATTTTGCAAGAAAAACCATTACCGGAAGTGATGTACCAAAAGATTGGACAAGAAATTGCCAAGATGCATAGAGCTAATGTGAACCATACCGACTTGAACATTCATAACATCTTAATTGATGACCAATACAAGGTCTGGATTATCGACTTTGATAAGTGCTTTTCATCTACAGATACTAAGGTTTCTAAAGAGAATTTAGAGCGGCTATTGCGCTCATTTAAGAAAGAAAAAGGTAAATGCGCGATTGCGTGGAGCCTCCAAGATTTTGACTGTTTGCTAAGCGGTTACCACCAAAGTAATAAAGGATAG",
+            "aa": "MIQTSQQGNCTIWFDDEIISDPTLPLFDAGYWQEQGKILGSASGRGTTWFVQLDSMQAALRHYRRGGLFGKLVKDQYWFSGWEQTRSAQELNLLQILIDAGVNVPRPIAAQAVKTGLTYQADLLSERIPNARDLVSILQEKPLPEVMYQKIGQEIAKMHRANVNHTDLNIHNILIDDQYKVWIIDFDKCFSSTDTKVSKENLERLLRSFKKEKGKCAIAWSLQDFDCLLSGYHQSNKG",
+            "aa_hexdigest": "21cc2058a188c21d95048d8754100d43",
+            "start_type": "ATG",
+            "rbs_motif": "GGA/GAG/AGG",
+            "ups": {
+                "uniparc_id": "UPI00084B4270",
+                "ncbi_nrp_id": "WP_069542511.1",
+                "uniref100_id": "UniRef100_UPI00084B4270",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084B4270",
+                    "RefSeq:WP_069542511.1",
+                    "UniRef:UniRef100_UPI00084B4270"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084B4270",
+                "uniref90_id": "UniRef90_A7MSP0"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A7MSP0",
+                "product": "3-deoxy-D-manno-octulosonic acid kinase",
+                "ec_ids": [
+                    "2.7.1.166"
+                ],
+                "uniref50_id": "UniRef50_Q9KVB9",
+                "go_ids": [
+                    "GO:0016773"
+                ]
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_Q9KVB9",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_Q9KVB9"
+                ],
+                "product": "3-deoxy-D-manno-octulosonic acid kinase"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_6",
+            "locus": "OLU4_006"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 4642,
+            "stop": 5367,
+            "strand": "+",
+            "frame": 1,
+            "gene": null,
+            "product": "UDP-glucose--lipooligosaccharide glucosyltransferase",
+            "db_xrefs": [
+                "RefSeq:WP_069542512.1",
+                "SO:0001217",
+                "UniParc:UPI00084B7A9B",
+                "UniRef:UniRef100_UPI00084B7A9B",
+                "UniRef:UniRef50_K7RXR2",
+                "UniRef:UniRef90_A0A0C1ZC42"
+            ],
+            "nt": "ATGCGTACGTTTGTGATTAGTTTGGAAAGCGCAGTTGAGCGCCGCGCGCATATCGAAGCTCAATTTGCTGGTGTAGAGCAAGACTTTGAGTTTTTTGATGCAATAGATGGACGTAAAGGCGAGCATCCTCTGTTTAGCAAGTACAACGTTGAGAAAAGACTTAGAGTGAAAGGCTATGGAATGACGCCAGGTGAATTGGGGTGCTTCGCCAGTCACTATTTGCTTTGGGAAAAGTGCCTAGAGTTAAAGGAGCCGATTGTTGTCATTGAGGATGATGCTCAACTAGAAGAATGTTTTGATGATTCGATGAAAAACATCAACGAGCTCCAACCATATGGTTATGTTCGTTTATTTGTTAATGGACGCAAACGGCCATTCGTCAAAATTGGTTCATATAAATCTCATGATGTCGTCGAGTATTTACGAGGCCCTGGCGCAACTCGATCTTACTTCGTCACTCCAATGGCTGCAAAAAGGTTCATTGAATCTGCTCAAGAGTGGTTACTACCCGTTGATGATTACATGGACCAGTTTTGGTCAAATGAAGTTGCATGCCGAGGCATAATGCCAGGTATCGTTAAGAATGAAACAGATTTTGATTCTAGTGTCGGTAAGCTCGAGAAGAGTAATAAAATGAATCGATTTACGCGGGAGTTGTATTCTATGCAGTGTGCTCTTTGGCGTAAATGGTATTTATTTCGAAACCCACCGAAGAAGGTCGAATAG",
+            "aa": "MRTFVISLESAVERRAHIEAQFAGVEQDFEFFDAIDGRKGEHPLFSKYNVEKRLRVKGYGMTPGELGCFASHYLLWEKCLELKEPIVVIEDDAQLEECFDDSMKNINELQPYGYVRLFVNGRKRPFVKIGSYKSHDVVEYLRGPGATRSYFVTPMAAKRFIESAQEWLLPVDDYMDQFWSNEVACRGIMPGIVKNETDFDSSVGKLEKSNKMNRFTRELYSMQCALWRKWYLFRNPPKKVE",
+            "aa_hexdigest": "a5b8d5c99914b99256864ec91f6ba1b9",
+            "start_type": "ATG",
+            "rbs_motif": "AGGA",
+            "ups": {
+                "uniparc_id": "UPI00084B7A9B",
+                "ncbi_nrp_id": "WP_069542512.1",
+                "uniref100_id": "UniRef100_UPI00084B7A9B",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084B7A9B",
+                    "RefSeq:WP_069542512.1",
+                    "UniRef:UniRef100_UPI00084B7A9B"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084B7A9B",
+                "uniref90_id": "UniRef90_A0A0C1ZC42"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A0A0C1ZC42",
+                "product": "UDP-glucose--lipooligosaccharide glucosyltransferase",
+                "uniref50_id": "UniRef50_K7RXR2"
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_K7RXR2",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_K7RXR2"
+                ],
+                "product": "UDP-glucose--lipooligosaccharide glucosyltransferase"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_7",
+            "locus": "OLU4_007"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 5369,
+            "stop": 5836,
+            "strand": "+",
+            "frame": 2,
+            "gene": null,
+            "product": "Serine acetyltransferase",
+            "db_xrefs": [
+                "RefSeq:WP_069542513.1",
+                "SO:0001217",
+                "UniParc:UPI00084B406D",
+                "UniRef:UniRef100_UPI00084B406D",
+                "UniRef:UniRef50_A0A2P7R500",
+                "UniRef:UniRef90_A7MSM4"
+            ],
+            "nt": "ATGCTTAACCTATTGATAAAATGGCTTTCTACGTCTGAACCCTCAAAAAAGTTTCGTGCCGAATTAGATCTAATGTTTTGGGGGGCGCAACACTCTCGTTTTATACGCAAGCGTTTTCAACGACGTATTTTTTATGTTTACAACTGTGATGTTAGCCATTTAGCCGATATTCATCCAACGGTATTGTTTCCTCACCCTTGTGGAATTGTTATCGGTTCGCAAGCAAAAGTGGAAAAAGGATGTCGAATTTATCAACAAGTCACGATTGGCAGCAACTTTGACTCCGATAACTCGATGGCCCACGTATCAGAAAATACTTACATTGGCAGTGGAGCAAAGGTTATTGGCGGGATTTCAATTGGTAAGAATTGTTACGTTGGAGCAAATGCGGTCATCACAAAAAACGTGGCTGATAACAGCTCGATAGTGGGCAATAATAAAAATATTACTAATAGAAAAGAAAGTTAA",
+            "aa": "MLNLLIKWLSTSEPSKKFRAELDLMFWGAQHSRFIRKRFQRRIFYVYNCDVSHLADIHPTVLFPHPCGIVIGSQAKVEKGCRIYQQVTIGSNFDSDNSMAHVSENTYIGSGAKVIGGISIGKNCYVGANAVITKNVADNSSIVGNNKNITNRKES",
+            "aa_hexdigest": "98f86c8cde4dffb5bd77700a66198548",
+            "start_type": "ATG",
+            "rbs_motif": "AGxAGG/AGGxGG",
+            "ups": {
+                "uniparc_id": "UPI00084B406D",
+                "ncbi_nrp_id": "WP_069542513.1",
+                "uniref100_id": "UniRef100_UPI00084B406D",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084B406D",
+                    "RefSeq:WP_069542513.1",
+                    "UniRef:UniRef100_UPI00084B406D"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084B406D",
+                "uniref90_id": "UniRef90_A7MSM4"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A7MSM4",
+                "product": "Serine acetyltransferase",
+                "uniref50_id": "UniRef50_A0A2P7R500"
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_A0A2P7R500",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_A0A2P7R500"
+                ],
+                "product": "Serine acetyltransferase"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_8",
+            "locus": "OLU4_008"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 5904,
+            "stop": 6602,
+            "strand": "+",
+            "frame": 3,
+            "gene": null,
+            "product": "N-acylneuraminate cytidylyltransferase",
+            "db_xrefs": [
+                "RefSeq:WP_009707930.1",
+                "SO:0001217",
+                "UniParc:UPI00028D0F76",
+                "UniRef:UniRef100_K5UKR8",
+                "UniRef:UniRef50_K5UKR8",
+                "UniRef:UniRef90_K5UKR8"
+            ],
+            "nt": "ATGATTGATGGAAAAAAGGTATTAGCGTTTATCCCTGCTCGAGGAGGGAGTAAACGGTTACCAAGAAAGAATATCTTGCCAATTGCAGGGAAGCCATTAATTGGTTGGTCTATTGATGCAGCGAAAGGTAGTGAGTATATTGATGATATATTTATAAGCACCGATGATCAGGAGATCGCTGATGTAGCTGCAGGTTTAGGGATTCCTGCACCTGAACTTCGTCCAGAGCACTTAGCTTCTGATACTGCATCGACAGCGAATGTCCTAACGTACACGTTGGAAAAATTTGGTACTGATTTTGATATAGTCATTTTACTCCAGCCCACGTCGCCTTTGCGTACTTCACAGCATATCGATCAGGCTCTAGAGCTATTTATTGAGAAACAAGCTTTTTCTGTTGTATCTGTGACACCGTGTGAGCATCCTCCACTTTGGTCAAATACATTGCCAGACAATGGTTCAATGGAAAACTTTATTCGACCAGAAGCTCTAAAGCGTTCTCAAGATTTAGGGAGCTTTTATCGCTTCAATGGTGCGATTTATATATTTGATGTTGAAAAATTACTCGAATACCAAGAGATCTGCTATACAAGTGAGTCCTTTGCTTTTGTCATGGAAAACAAGGACTCATTCGATATTGATCAACAGTTTGATTTTGAATTAGCTGAATTCTTCCTTAATAAAAGAAGATTGTCATAG",
+            "aa": "MIDGKKVLAFIPARGGSKRLPRKNILPIAGKPLIGWSIDAAKGSEYIDDIFISTDDQEIADVAAGLGIPAPELRPEHLASDTASTANVLTYTLEKFGTDFDIVILLQPTSPLRTSQHIDQALELFIEKQAFSVVSVTPCEHPPLWSNTLPDNGSMENFIRPEALKRSQDLGSFYRFNGAIYIFDVEKLLEYQEICYTSESFAFVMENKDSFDIDQQFDFELAEFFLNKRRLS",
+            "aa_hexdigest": "a6e81d58b55c16cba6782b48e140dae3",
+            "start_type": "ATG",
+            "rbs_motif": "AGGA",
+            "ups": {
+                "uniparc_id": "UPI00028D0F76",
+                "ncbi_nrp_id": "WP_009707930.1",
+                "uniref100_id": "UniRef100_K5UKR8",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00028D0F76",
+                    "RefSeq:WP_009707930.1",
+                    "UniRef:UniRef100_K5UKR8"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_K5UKR8",
+                "uniref90_id": "UniRef90_K5UKR8"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_K5UKR8",
+                "product": "N-acylneuraminate cytidylyltransferase",
+                "uniref50_id": "UniRef50_K5UKR8"
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_K5UKR8",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_K5UKR8"
+                ],
+                "product": "N-acylneuraminate cytidylyltransferase"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_9",
+            "locus": "OLU4_009"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 6597,
+            "stop": 7592,
+            "strand": "-",
+            "frame": 1,
+            "gene": null,
+            "product": "Glycosyltransferase 52 family protein",
+            "db_xrefs": [
+                "RefSeq:WP_069542514.1",
+                "SO:0001217",
+                "UniParc:UPI00084A8779",
+                "UniRef:UniRef100_UPI00084A8779",
+                "UniRef:UniRef50_A0A2A9F288",
+                "UniRef:UniRef90_A0A812FE82"
+            ],
+            "nt": "ATGGATCTTTTTGTTGTTACATCACCCATGCAGTATGTTTGTGCATTAGAGGCTAAAACATTCTTTAACAGCCAAGAGGCGATCTTACTGTTAGTAAACCAAAAAAGTACGCTTGGTTTAGAGCAACAAAACCGACTTTTTAATACTAAAGAGTGGCAAAATATCATCACAATTGATAGGGGAAGCCGTAGTATTGCTGTCCCTAAAGCAATCAAAGAGATCAAGAAAGCCCTAAATGGGCGTTCGATACAACGTTTTTTCTATGCTGAATTTAATGCCTGGCGAACAAAACTAATACTAAAAAACCTCAATATAGAGAAACAAATCTATTTTGATGATGGTACGCTTACACTGTCGGAGTATCCGAAGTATATACTGCCTAAACAAGACTTTTACCGCCCAAGATTCCTTCAAGATTTAGTGGTGCGCCTTAATGGATGCAAACCAATTGGTCATTTAAAACCTTCTGATAATATAGAAGTTTTTACGATGTTCAACTTAAACCCAATAGCACATAAAGTACATAAGAATTCCTTGAGCAGATTAAAGGGGGAGTATGGTAACCCATCTCTATATAATAGAGATGCTCCAATTGGCTATATAGGACAAGGGGCTATTGGTGACAAGTATCAAAAATCGGTATCACAATACATTGAAGAGCTTGATACTCTCGCTAAATCTAGCAATCGAAAAATTATATACTTCCCTCACCGAACAGAGCGAGATGAAGTAAAAGAGGCACTACAGAGAAAAAACTACATTATATACCACCGTAGTGAATATCCTCTAGAAATAGAGTTAATCGATAAAGGTATTGAGCTCTCTGGATTCGTAGGGACTTACTCAACAGTAATGTTTACTTGCAGACTACTCTATCCAGATATGCCCATTTATACGATATCCGACGACTACCCTGATAAAGTGTTTCGAGCAGAACTAAGAAGACAATTCAAAGCTATTAATGTAAAGAAAATTAATAGCTTTCAAGACCTATGA",
+            "aa": "MDLFVVTSPMQYVCALEAKTFFNSQEAILLLVNQKSTLGLEQQNRLFNTKEWQNIITIDRGSRSIAVPKAIKEIKKALNGRSIQRFFYAEFNAWRTKLILKNLNIEKQIYFDDGTLTLSEYPKYILPKQDFYRPRFLQDLVVRLNGCKPIGHLKPSDNIEVFTMFNLNPIAHKVHKNSLSRLKGEYGNPSLYNRDAPIGYIGQGAIGDKYQKSVSQYIEELDTLAKSSNRKIIYFPHRTERDEVKEALQRKNYIIYHRSEYPLEIELIDKGIELSGFVGTYSTVMFTCRLLYPDMPIYTISDDYPDKVFRAELRRQFKAINVKKINSFQDL",
+            "aa_hexdigest": "df365ec7357cca12322acbb9423d0cae",
+            "start_type": "ATG",
+            "rbs_motif": null,
+            "ups": {
+                "uniparc_id": "UPI00084A8779",
+                "ncbi_nrp_id": "WP_069542514.1",
+                "uniref100_id": "UniRef100_UPI00084A8779",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084A8779",
+                    "RefSeq:WP_069542514.1",
+                    "UniRef:UniRef100_UPI00084A8779"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084A8779",
+                "uniref90_id": "UniRef90_A0A812FE82"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A0A812FE82",
+                "product": "Glycosyltransferase 52 family protein",
+                "uniref50_id": "UniRef50_A0A2A9F288"
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_A0A2A9F288",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_A0A2A9F288"
+                ],
+                "product": "Glycosyltransferase 52 family protein"
+            },
+            "genes": [],
+            "id": "FHECDBFMDC_10",
+            "locus": "OLU4_010"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 7596,
+            "stop": 8861,
+            "strand": "-",
+            "frame": 1,
+            "gene": "waaA",
+            "product": "lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase",
+            "db_xrefs": [
+                "EC:2.4.99.12",
+                "GO:0016740",
+                "RefSeq:WP_069542515.1",
+                "SO:0001217",
+                "UniParc:UPI00084ADE9D",
+                "UniRef:UniRef100_UPI00084ADE9D",
+                "UniRef:UniRef50_A0A0H3AKX4",
+                "UniRef:UniRef90_K5U8J5"
+            ],
+            "nt": "ATGCTAATTCGCATTTTTTACACCTTACTGCTTGCCCTTGCATCCCCTTTCCTATTGTTTAGTTTATACAAAAGTAAACCGAACAAGCCCAAGTTTGGTCAACGATGGAAAGAGCATTTTGGTATAACTCCAAAGCTAGAGACAACTGAGCGCCCCATTTGGATTCATGCGGTTTCGGTAGGCGAAAGCATCGCCGCTATCCCACTCATTAAAGAGTTGAGAAAGCAAAACCCAACCCAACCTATTTTGGTCACCACCACAACCAGCACTGGTGCGGAACAAATTGCTAAGTTGGGCGACTTAGTTGAACACCGCTACATGCCTATCGATTTCGATTTTGCCGTGAAAGGCTTTCTAAAGGCAAAACGCCCAAAGCAAATGTTGATAATCGAAACCGAGCTTTGGCCAAACACGCTTAATGCTGTCCACAATGCAGGAATCCCTATCATAGTGGTCAACGCTCGCCTCTCTGAAAAGTCGTATAGGAACTACGCAAAAGTGCAGCCACTGTTTGACCTCTTACATCCATGCATAGATAAGGTCCTTTGCCAGGCCGAGTCAGATGCTGAGCGTTTCGAACGTTTAGGTATCGAGAAAAACAAACTTTTTGTTACTGGCTCAATAAAGTTTGATATTCAAATATCGGACGACGTAAAAGAAAAAGCTAAAACTCTAAGGAACGCCCTTGGTTTAGGGCGCCCGATTTGGATTGCAGCCAGCACTCATAAAGGCGAAGACGAGCAGGTATTAGAAGCTCACAAAAAAATCTTGGAATCTCACCCAAATGCACTCTTAATCCTTGTTCCACGACATCCAGAGCGATTCGAAGATGTATTTGAGCTTTGTCAAGGTCAAGGCTTTGAAACTGCTCGCCGTACAAGCCAAGAAGAAGTAACAACATCGACCCAGGTTTATCTTGGAGATACCATGGGTGAGATGCTGGTCTTGATTGGAGCTGCCGATATATGCTTTATGGGCGGCAGTTTAATTGGCGATAAAGTCGGTGGGCATAATGTTTTAGAACCTGCGGCTTTAGGTGTGCCAGTCATCACTGGGCCGAGCTATTTTAATTTCCAAGAAATTGTTGACAAGATGGTATCTTTTTCTGCGATAGCGATTACTTCAAACGTAAACACCCTCGCAATTGAAATAAAGGATCTAATTCAAAATGAAAGTGCTTACCATCAAGTAAAGGTAAGCCTACTTTCTGTCGTAAACTCAAACAAAGGCTCATTACAAAAAACTCTGGATAAGGTAACTTTATAA",
+            "aa": "MLIRIFYTLLLALASPFLLFSLYKSKPNKPKFGQRWKEHFGITPKLETTERPIWIHAVSVGESIAAIPLIKELRKQNPTQPILVTTTTSTGAEQIAKLGDLVEHRYMPIDFDFAVKGFLKAKRPKQMLIIETELWPNTLNAVHNAGIPIIVVNARLSEKSYRNYAKVQPLFDLLHPCIDKVLCQAESDAERFERLGIEKNKLFVTGSIKFDIQISDDVKEKAKTLRNALGLGRPIWIAASTHKGEDEQVLEAHKKILESHPNALLILVPRHPERFEDVFELCQGQGFETARRTSQEEVTTSTQVYLGDTMGEMLVLIGAADICFMGGSLIGDKVGGHNVLEPAALGVPVITGPSYFNFQEIVDKMVSFSAIAITSNVNTLAIEIKDLIQNESAYHQVKVSLLSVVNSNKGSLQKTLDKVTL",
+            "aa_hexdigest": "e6979ff1079b5214e4978f28e56d05ba",
+            "start_type": "ATG",
+            "rbs_motif": null,
+            "ups": {
+                "uniparc_id": "UPI00084ADE9D",
+                "ncbi_nrp_id": "WP_069542515.1",
+                "uniref100_id": "UniRef100_UPI00084ADE9D",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084ADE9D",
+                    "RefSeq:WP_069542515.1",
+                    "UniRef:UniRef100_UPI00084ADE9D"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084ADE9D",
+                "uniref90_id": "UniRef90_K5U8J5"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_K5U8J5",
+                "gene": "waaA",
+                "product": "lipid IV(A) 3-deoxy-D-manno-octulosonic acid transferase",
+                "ec_ids": [
+                    "2.4.99.12"
+                ],
+                "uniref50_id": "UniRef50_A0A0H3AKX4",
+                "go_ids": [
+                    "GO:0016740"
+                ]
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_A0A0H3AKX4",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_A0A0H3AKX4"
+                ],
+                "product": "3-deoxy-D-manno-octulosonic acid transferase"
+            },
+            "genes": [
+                "waaA"
+            ],
+            "id": "FHECDBFMDC_11",
+            "locus": "OLU4_011"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 8855,
+            "stop": 9913,
+            "strand": "-",
+            "frame": 2,
+            "gene": "waaF",
+            "product": "lipopolysaccharide heptosyltransferase II",
+            "db_xrefs": [
+                "GO:0008920",
+                "GO:0009244",
+                "RefSeq:WP_069542516.1",
+                "SO:0001217",
+                "UniParc:UPI00084B0C76",
+                "UniRef:UniRef100_UPI00084B0C76",
+                "UniRef:UniRef50_A0A3Q0L2L2",
+                "UniRef:UniRef90_A7MSL9"
+            ],
+            "nt": "ATGAAAAAAATCTTAATTATTGGCCCTTCTTGGGTTGGCGATATGGTGATGTCGCAGTCTCTTTATATTGTCTTAAAGCAACTCCATCCAGACAGCCAAATTGACGTAATTGCATCAGGTTGGTGCAAACCAATTCTAGAGCGCATGCCAGAGATCCATCAAGCCATTGAAATGCCTATTGGTCATGGTGAATTCAACTTACTCGGTCGTCGCGAAATCGGTAAATCATTACGAGAAAAACAGTATGACCACGCATACATCCTGCCGAAGTCTGCAAAATCTGCTCTTATCCCGTGGTTCGCAAACATTCCTCTTCGTACTGGTTGGAAAGGTGAAATGCGTTACGGTTTACTTAATGACTTGCGACCAAACATGAAATCTTTCCAGTTTATGGTTGAACGCTATGTGGCATTAGCTTACTCACAAGAAAAGATGATCGACTCATCTTCATTGGGTGGTTTAGAAACCCTACCTCGCCCTAGCCTGTTTATTGACAAAAAAGAGCAAGCTGAAGCGATTGCTAAGTTTAATCTCAATCAAGAGGCGCCTGTTGTTGGCCTGTGCCCAGGCGCAGAGTTTGGCCCTGCTAAAAAATGGCCAGAGACACATTACGCAGAAGTTGCATCAGCTATGGCGAATGCAGGAAAGCAAGTCTGGCTATTTGGTTCTCAAAAAGACCTTGAGACCTGCAACAACATCAAGCAATTAGTACCTCAAGAACATCAGCATCAGATTCATGTGCTAGCAGGACAAACTAGCCTGATTGAAGCCGTTGATCTGCTGGCGGCATGTCAGACTGTTGTAGCAAATGACTCGGGTCTTATGCACGTGGCAACTGCCGTTGGTTGTAACGTTGTTGCGGTCTATGGTTCCACCTCACCAAAATACACACCACCACTTGCAGAGAATGTAGAGATTGTTCATACGGACATTGACTGCCGTCCATGCTTTAAGCGCGAGTGTCAGTTTAAGCATTTGAAGTGCTTAACTGAGTTATCACCAAAACAGGTGCTAGATAGTATCCAAAAACTTGAAGCGATAACGGTAAGTTCATGCTAA",
+            "aa": "MKKILIIGPSWVGDMVMSQSLYIVLKQLHPDSQIDVIASGWCKPILERMPEIHQAIEMPIGHGEFNLLGRREIGKSLREKQYDHAYILPKSAKSALIPWFANIPLRTGWKGEMRYGLLNDLRPNMKSFQFMVERYVALAYSQEKMIDSSSLGGLETLPRPSLFIDKKEQAEAIAKFNLNQEAPVVGLCPGAEFGPAKKWPETHYAEVASAMANAGKQVWLFGSQKDLETCNNIKQLVPQEHQHQIHVLAGQTSLIEAVDLLAACQTVVANDSGLMHVATAVGCNVVAVYGSTSPKYTPPLAENVEIVHTDIDCRPCFKRECQFKHLKCLTELSPKQVLDSIQKLEAITVSSC",
+            "aa_hexdigest": "b56ce92061cdba3dd2cd18875524888b",
+            "start_type": "ATG",
+            "rbs_motif": null,
+            "ups": {
+                "uniparc_id": "UPI00084B0C76",
+                "ncbi_nrp_id": "WP_069542516.1",
+                "uniref100_id": "UniRef100_UPI00084B0C76",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084B0C76",
+                    "RefSeq:WP_069542516.1",
+                    "UniRef:UniRef100_UPI00084B0C76"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084B0C76",
+                "uniref90_id": "UniRef90_A7MSL9"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A7MSL9",
+                "gene": "waaF",
+                "product": "lipopolysaccharide heptosyltransferase II",
+                "uniref50_id": "UniRef50_A0A3Q0L2L2",
+                "go_ids": [
+                    "GO:0008920",
+                    "GO:0009244"
+                ]
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_A0A3Q0L2L2",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_A0A3Q0L2L2"
+                ],
+                "product": "Lipopolysaccharide heptosyltransferase II"
+            },
+            "genes": [
+                "waaF"
+            ],
+            "id": "FHECDBFMDC_12",
+            "locus": "OLU4_012"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 9910,
+            "stop": 10899,
+            "strand": "-",
+            "frame": 3,
+            "gene": "lpxM",
+            "product": "lauroyl-Kdo(2)-lipid IV(A) myristoyltransferase",
+            "db_xrefs": [
+                "COG:COG1560",
+                "COG:I",
+                "EC:2.3.1.243",
+                "GO:0009245",
+                "GO:0016746",
+                "KEGG:K02560",
+                "RefSeq:WP_069542517.1",
+                "SO:0001217",
+                "UniParc:UPI00084B96D0",
+                "UniRef:UniRef100_UPI00084B96D0",
+                "UniRef:UniRef50_A0A099LR58",
+                "UniRef:UniRef90_A0A0L8T4P5"
+            ],
+            "nt": "ATGACAGCAAAACGTGACGACTACGACTCCAAAGCATATAACCCTGAATTTGAGCGTCATTTTTTGTCGCCTAAGTATTGGGGAACTTGGTTAGGTGTAATACTCTTTTTGCCGCTAGCCTTAATGCCTCTTAGCGCCCAAAAGTGGCTAGCCAAAACAATAGCTAAAAAGTTATCTAAATCTCATAAAGGGCCAGCTCACAGGGCTCGAGTCAACTTTGAATTATGCTTCCCTGAAAAGACGTTTCAGGAACGCGAAGCCTTAATTGAAAAAACGCTCTACACCGCAGCAATGTTCTTTTTTCGTTTTGGGTTGCTGAGTTTACGTTCTCCTCAATGGCTTCAGAGTCGCTGCCAAATTCGAGGATTGGACGTACTACGCCAGCACATTGATAACAATGAAAATGTGATTTTGATGGTTCCTCACTCATGGGCTATCGATGTTCCTGCTATTTTGCTGGCTTCAATGGGGATGCCTGTCTCTGCGATGGCAAAAAAACAAAAGAATGATGTGGCTGACTGGTTAATGCACAAGCAAAGAGTTCAGTATGGCGGCCGAGTTTACGAGCGCTCTGGTGGTGTTAAGCCGTTTTTGAAATCAGTTCGTGACGGTTACATTGGCTATTACTTACCCGATCAGGATCATGGTCCTGAACACAGCGTTTTTGTCGATTTCTTTGCGACCAGAAAAGCAACGCTTCCAGGCTTAGGTAAAATTGCCAAACTATCACGTGCTGAAGTGTTACCTATGTTTGCTTCTATGAATACAGAAGATGGTACGTTTGATATCGAAATCTTACCGGCGTTTGAGCTAAATAAAGGCGAAGAACAAGACGCTCGCACTTGTAATCAAGCAATCGAGTACTTTGTCGCAAATAAACCAGAACAATACATGTGGGTGCTACAACTTCTGCACTCTCAAGAAGACGGCAATAACTATTACAACCTATTTAAACCGAGATACAACACTGACTGGCAAATAAGCAAATGA",
+            "aa": "MTAKRDDYDSKAYNPEFERHFLSPKYWGTWLGVILFLPLALMPLSAQKWLAKTIAKKLSKSHKGPAHRARVNFELCFPEKTFQEREALIEKTLYTAAMFFFRFGLLSLRSPQWLQSRCQIRGLDVLRQHIDNNENVILMVPHSWAIDVPAILLASMGMPVSAMAKKQKNDVADWLMHKQRVQYGGRVYERSGGVKPFLKSVRDGYIGYYLPDQDHGPEHSVFVDFFATRKATLPGLGKIAKLSRAEVLPMFASMNTEDGTFDIEILPAFELNKGEEQDARTCNQAIEYFVANKPEQYMWVLQLLHSQEDGNNYYNLFKPRYNTDWQISK",
+            "aa_hexdigest": "e8676564b8294271a86bea99a5b015db",
+            "start_type": "ATG",
+            "rbs_motif": null,
+            "ups": {
+                "uniparc_id": "UPI00084B96D0",
+                "ncbi_nrp_id": "WP_069542517.1",
+                "uniref100_id": "UniRef100_UPI00084B96D0",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00084B96D0",
+                    "RefSeq:WP_069542517.1",
+                    "UniRef:UniRef100_UPI00084B96D0"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_UPI00084B96D0",
+                "uniref90_id": "UniRef90_A0A0L8T4P5"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_A0A0L8T4P5",
+                "gene": "lpxM",
+                "product": "lauroyl-Kdo(2)-lipid IV(A) myristoyltransferase",
+                "ec_ids": [
+                    "2.3.1.243"
+                ],
+                "uniref50_id": "UniRef50_A0A099LR58",
+                "cog_id": "COG1560",
+                "cog_category": "I",
+                "kegg_orthology_id": "K02560",
+                "go_ids": [
+                    "GO:0009245",
+                    "GO:0016746"
+                ]
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_A0A099LR58",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_A0A099LR58"
+                ],
+                "product": "Lipid A biosynthesis acyltransferase"
+            },
+            "genes": [
+                "lpxM"
+            ],
+            "id": "FHECDBFMDC_13",
+            "locus": "OLU4_013"
+        },
+        {
+            "type": "cds",
+            "sequence": "OLU4_1",
+            "start": 11034,
+            "stop": 11975,
+            "strand": "-",
+            "frame": 1,
+            "gene": "rfaD",
+            "product": "ADP-glyceromanno-heptose 6-epimerase",
+            "db_xrefs": [
+                "COG:COG0451",
+                "COG:M",
+                "EC:5.1.3.20",
+                "GO:0005975",
+                "GO:0008712",
+                "GO:0009244",
+                "GO:0050661",
+                "GO:0097171",
+                "KEGG:K03274",
+                "RefSeq:WP_021451714.1",
+                "SO:0001217",
+                "UniParc:UPI00038E1AC6",
+                "UniRef:UniRef100_A0A1E4UD32",
+                "UniRef:UniRef50_Q7VZF5",
+                "UniRef:UniRef90_Q87T56"
+            ],
+            "nt": "ATGATCATCGTAACTGGTGGAGCTGGCATGATCGGCAGCAACATTGTTAAAGCACTAAACGAAGCTGGTATTAACGATATCCTGGTTGTCGACAACCTAAAAAATGGCAAAAAGTTTAAGAACTTAGTTGATCTGGACATCACAGATTACATGGATCGTGACGACTTTCTGACCCAAATTATGGCTGGTGACGATTTCGGTCCAATCGAAGCAATTTTCCACGAAGGCGCTTGCTCTGCAACGACAGAGTGGGATGGTAAATACATGATGCTAAACAATTACGAGTACTCTAAAGAGCTGCTTCATTACTGTTTAGATCGTGAAATTCCATTTCTATACGCCTCTTCCGCAGCCACTTACGGCGATACAGATACTTTCGTTGAAGAACGCGAATATGAAGGCGCACTGAATGTATACGGTTACTCGAAACAACAGTTTGACAACTACGTTCGTCGTCTATGGCAAGACGCTGAAGAACATGGTGAAACCCTTTCTCAAATCACCGGCTTCCGTTACTTCAACGTATATGGCCCACGTGAAGATCACAAAGGCAGCATGGCATCTGTTGCGTTCCATCTGAACAACCAACTAAACGCAGGTGAAAATCCAAAACTGTTTGCAGGTAGCGAGTCTTTTAAGCGTGATTTCGTTTACGTTGGTGATGTATGTAAAGTAAACCTGTGGTTCCTTGAAAATGGAGTTTCTGGCATCTTCAACTGTGGTACTGGTCGTGCAGAGTCTTTTGAAGAAGTAGCAAAAGCGGTCATTGCCCATCATGGAAAAGGCGAGATTGAAACTATTCCTTTCCCAGAACATCTAAAAGGTGCCTATCAAGAGTTCACGCAAGCAGACCTTACCAAGCTACGCGCTGCCGGTTGCGATGTTGAGTTCAAGACGGTTGCAGAAGGCGTTGCCGAATACTTAACTATCCAAAACAGTTAA",
+            "aa": "MIIVTGGAGMIGSNIVKALNEAGINDILVVDNLKNGKKFKNLVDLDITDYMDRDDFLTQIMAGDDFGPIEAIFHEGACSATTEWDGKYMMLNNYEYSKELLHYCLDREIPFLYASSAATYGDTDTFVEEREYEGALNVYGYSKQQFDNYVRRLWQDAEEHGETLSQITGFRYFNVYGPREDHKGSMASVAFHLNNQLNAGENPKLFAGSESFKRDFVYVGDVCKVNLWFLENGVSGIFNCGTGRAESFEEVAKAVIAHHGKGEIETIPFPEHLKGAYQEFTQADLTKLRAAGCDVEFKTVAEGVAEYLTIQNS",
+            "aa_hexdigest": "5d47b653a457b2de7c35c14bba8a3d36",
+            "start_type": "ATG",
+            "rbs_motif": null,
+            "ups": {
+                "uniparc_id": "UPI00038E1AC6",
+                "ncbi_nrp_id": "WP_021451714.1",
+                "uniref100_id": "UniRef100_A0A1E4UD32",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniParc:UPI00038E1AC6",
+                    "RefSeq:WP_021451714.1",
+                    "UniRef:UniRef100_A0A1E4UD32"
+                ]
+            },
+            "ips": {
+                "uniref100_id": "UniRef100_A0A1E4UD32",
+                "uniref90_id": "UniRef90_Q87T56"
+            },
+            "psc": {
+                "uniref90_id": "UniRef90_Q87T56",
+                "gene": "rfaD",
+                "product": "ADP-glyceromanno-heptose 6-epimerase",
+                "ec_ids": [
+                    "5.1.3.20"
+                ],
+                "uniref50_id": "UniRef50_Q7VZF5",
+                "cog_id": "COG0451",
+                "cog_category": "M",
+                "kegg_orthology_id": "K03274",
+                "go_ids": [
+                    "GO:0005975",
+                    "GO:0008712",
+                    "GO:0009244",
+                    "GO:0050661",
+                    "GO:0097171"
+                ]
+            },
+            "pscc": {
+                "uniref50_id": "UniRef50_Q7VZF5",
+                "db_xrefs": [
+                    "SO:0001217",
+                    "UniRef:UniRef50_Q7VZF5"
+                ],
+                "product": "ADP-L-glycero-D-manno-heptose-6-epimerase"
+            },
+            "genes": [
+                "rfaD"
+            ],
+            "id": "FHECDBFMDC_14",
+            "locus": "OLU4_014"
+        }
+    ],
+    "sequences": [
+        {
+            "id": "OLU4_1",
+            "description": "[gcode=11] [topology=linear]",
+            "nt": "TCATTTGGCTACCTTTGTTTTGATAGCTGTATGAACACATTTTGGCACAAACTGCTCGACATCACCGCCATGGATTGCTACTTCACGGACGATGGTAGAAGAGAGAAAAGCATACTCTTCTGCTGGCGTCAGGAACACGCTCTCAACACCTGGTAACAGTTTGCGATACATGCTCGTTAGGCCAAATTCGTATTCAAAGTCGACAGTTGTTCTAAGGCCGCGCACCAGTACATTTGCTTCTTGCTCACGAGCAAAATCAACCAGTAAGCCACTAAAACCAGCGGTTGATACATTACTTAAGTGCGCTGTTGATTCTTCAACAAGTTTTACTCGTTCTTCTAGGCTAAACAGTGTTTTTTTCGAAGGACTTGCTGCGACACCGATAATAATTTGATCAAACATGTTTGCGGCACGAGTAATGATATCTAGGTGACCATTAGTGATTGGGTCAAATGTTCCTGGGTAAATGACTTTTTTCATCGTAAAACTTTCTCGTAAACATCTACGTATTGGTTAGCAGTGTAGTTGATATCAAATAACTTCAGTTTCTCTTGCCCGTTGGCGATGAATTCTTGTTGAAGATTTTCATCTTGAGCGATCTTCATTATTGCATTCGCCAACTCTTGTGCATTACCTGGTTCAACAAGTAAGCCGTTTGAATTGTGATCGATAATGTCAGGGATACCACCTGCATTAGTACCTATAACAGGTAAACCAGAGCCCATACCTTCCAAAATGACAGAGCCCAGTCCCTCTGTGTAAGAAGGGTGAACCTGCAAATCTGCCGCAGCAAACCAATCACCCATATTGCTTTGTTTGCCTTCGAAACTGATGTTAGTTAGGCCTTGTGCTTGAGACTCAAGAGCCTCTCTCTCTGAGCCATCACCTAGCAAACAAAAATGGACAAAGGGTGCGGATTTTTCTAACAGCCTTGCCGCGTCGACAGTGACATTGAAGCCTTTATGTTTCAGCATGTTTGCTCCATGTATCACTATAAATTTGCCTGCGAAGCGGTCTCTAATTGCTTGTACAGTTTCAGCGTTAGCAGGGTATGTCACCGGTGAACTTGGGATTTTGTAGGTTACTGAAGTTGGGTAAGCGTCTTTCACTCTCTGAACTATTTCAGTACTTAAACCTACCACAGCGGAGGCTTTCGAATAGGCTAAGTTTGCCAACCATTTCTTTTTCAATGCATTGTCGATTCGGCGAGTGACAATATATGGTTTGCCGTAGAGCATATGTTGGATCAGGGCCCAATAAATGGCACGTCCTTCGTGCACATGGATTAGATCACAATCCTTAGTGATAGATTTTGAGTGTGCTTTGGTAAAGTGGTTCGCTAATACCACTTTAACGCCTAACGCTTTTACCGCATCGGCGAAAGGGCTTTTAGGGTTTGCAACAACTGTCAGTTGATAGCCGAGCTTTACTTGCTGCTTAATGAGTTGCAGCGTCTGATTCTCGCCACCATGGTATCCAGAAGCTAAGTTAACGTGGCAAATGTTCATGTTATTGCTCTTTATTATGTTTTTTGACGTAATCACGCAGCCACAGGTCTGCATAGCGAGTAAAGGTTGTGTTTGCACTTAGTACGGCGAGTAAAAAGCCATGTCGACCATCTAAGAAGCCACGTTTAATAATATACATTTTGAAGAAACGGAAGAAGCCATGGGTAAATGCACTAAAAAGTGAGGCTGACTTTTTACCTTCACGCTGGTCTGCCCAAGATTGCATGTACAGTTGGGTTTTCCGCGTGTACTCGCCAAGCTTTTCATAAGTAAAATGCTTCAAACGGCCATTTAACGAAACAACTTTAAAGCCATCGGGAATAACAACGCTTTCATGAACGAGCGCGTCGTTATATTTCGTTTCTGATGTTTTGTATAAACGTACCACCCAATCAGGCGACCAGCCTGAGTAACGAATCTCTTTTGCAAAGGCTGTCGTCAGTCGGTTCACACGATAAATGTTTTTATCGCAGTGTTGGCTGATTGCGTTGAGTATGTCTTGGCGTAATTCATCGGTAACACGCTCATCAGCATCCAGCCAAAGCACAAAATCCGATTCCACATAGTCTTGAGCAAGTTGGCGTTGTTTGCCAAACCCAGGCCATTCTAAATTGGTATAAAACTTATCTGTATACTGCCTAGCGATTTCTTCAGTGGTATCAGTGCTACCTGAATCTAGAAGAACAATCTCATCGACCCAATCTTTTACTGTGTCTAGACAAGCTTTCAGGTGCTTCTCTTCATTTTTTACGATCAACGCGACGGCTAAGGTAGGTTTAGACAAGGTAGTTTCCTTCTTAAACAATCTTCTACAGGTATAATTTACTGATATTGTGGATACAAATCTTCTACGACTTGGTCGAACATAGCGACGACACGGTCGCTTGTAATGCGGTTCATTGCGGCTTCATCCTTTGCTCGGGTTCGCCAACTTAATTCTTGGCTCGTCTTTCCTGTTTCTGCAAGAATCACTTCTTCATATACAGATACGGCATACTTTAAAAAGCGATAAGGGCCTACTCGAATAGGATTGTGATGGGCATATAAACCAATAATCGGTGTGTTCATTGCACTCGCCATGTGGGCTGGGCCAGTATCTGGTGCTATCACCATCTGCACAGTATCAATTAAAGCTAGCATTTGTAGGATGGAGCTTTCTCCTACTAAGTTTAAACAAGGTTCACGCAACAAAGCTTGAATCTCATTTGCTAGGTCAACTTCGACCTTTGCAGGACTGCCCGCTAGTATGACATTCCAGCCTTTCTCTCGCGCATGATTAATGACATCCACATAACCCTTCGCGTTCCAGTTCTTGTAAGCTTTACTTGCTCCGGGAACCAATAACAAGTTTGGTTTCACCTTATCTAGTTTTGCCTTAGCCCAAGTACTATCCTCTTCTGAGTAAGATAAAGACCAAGATAGTTCCGATTGAGGTACTCCAATCTGATTGGCAAACGCCATTAAACCATCCGCAACATGCAAAGAGCTTGGTGAAGGAACTTTGACATTGGTGAACAAAGTCTGAAAGTCTTGGCTACGGTCAGAAGAGAAGCCAAGTTTGTATTTTGCTTTAATACCTAACGTTGCCACGCTCGCTCGAATGGCATATTGCATATGAAGCAAAGCATCGAACTCGCGTCCTTTAAGTTGCTTCCACAGTGATTTGTAACCATCAAGTCCTGCTTTTTTATCAAAAACAATCACTTCAACGTCATCTATCGCTTGTAGCAATTGAGCTTCAAGTTTGCCAGTAATCCAAGTGATATGGGTCTCAGGCCATTGTTTTTGAATCGCTTGAACCGTCGCGATAGTATTGCAAACATCACCAATTGCAGATAAACGCAATATACAGAGTGAAGAAGGGGCAGAAGTGAACATAGTTATTGTCTGATCAGATAAATAGATGCAGGTAAATTATGCAGACATCCCCAATAAATGTAAAATACACCGCTTCTATACTGAGCACTGACGAGTCTTCGCAATGTCAAATAGCCAACAACATCAATCTCCAAATTCAGGAAAACCTGGAAACACGGGTTTAAAGCGTATCATCAAAGCGACGGGATATTCTGCGAAAGGCTTAAGGGCGGCGTTTAAACACGAAGCGGCGATTAGACAAGAGCTTGTGATGCTAGCCATTGCCATCGTTTTGGTCTGTGTTTTTGACTTGAGTGTCATAGAACGTATTTTGATGCTCGGTGTCGTCGTTCTTGTTCTGATTGTTGAGTTGATCAATTCCGCGATAGAGGCGGTGGTGGATCGCGTGGGCGTCGAACATCATGAATTGAGTGGGCGCGCAAAAGATATCGGCTCAGCGGCAGTTATGGTGGCATTAGCGTTCGCTGGATTCACATGGCTGTATATTTTGCTTAGTCTTTATCTCTAAATCACTTTAGCTGTGAGTATCAAAGATATGATTCAAACTTCACAACAAGGTAATTGCACGATTTGGTTTGATGATGAAATCATTTCAGACCCAACATTGCCATTGTTTGATGCCGGCTATTGGCAAGAACAAGGTAAAATCTTGGGCAGCGCTTCTGGTCGGGGAACGACCTGGTTTGTTCAACTCGACTCTATGCAAGCAGCCCTTCGACATTATCGCCGAGGTGGTCTATTCGGCAAACTGGTGAAAGACCAATACTGGTTTTCTGGTTGGGAACAAACTCGCAGTGCTCAGGAGTTAAATCTTTTGCAGATTTTGATAGATGCCGGCGTCAATGTTCCTCGTCCGATTGCCGCGCAAGCAGTTAAAACAGGTTTGACTTACCAAGCGGATCTTCTCAGCGAAAGAATTCCAAATGCCAGAGACTTGGTCAGTATTTTGCAAGAAAAACCATTACCGGAAGTGATGTACCAAAAGATTGGACAAGAAATTGCCAAGATGCATAGAGCTAATGTGAACCATACCGACTTGAACATTCATAACATCTTAATTGATGACCAATACAAGGTCTGGATTATCGACTTTGATAAGTGCTTTTCATCTACAGATACTAAGGTTTCTAAAGAGAATTTAGAGCGGCTATTGCGCTCATTTAAGAAAGAAAAAGGTAAATGCGCGATTGCGTGGAGCCTCCAAGATTTTGACTGTTTGCTAAGCGGTTACCACCAAAGTAATAAAGGATAGAGAATGCGTACGTTTGTGATTAGTTTGGAAAGCGCAGTTGAGCGCCGCGCGCATATCGAAGCTCAATTTGCTGGTGTAGAGCAAGACTTTGAGTTTTTTGATGCAATAGATGGACGTAAAGGCGAGCATCCTCTGTTTAGCAAGTACAACGTTGAGAAAAGACTTAGAGTGAAAGGCTATGGAATGACGCCAGGTGAATTGGGGTGCTTCGCCAGTCACTATTTGCTTTGGGAAAAGTGCCTAGAGTTAAAGGAGCCGATTGTTGTCATTGAGGATGATGCTCAACTAGAAGAATGTTTTGATGATTCGATGAAAAACATCAACGAGCTCCAACCATATGGTTATGTTCGTTTATTTGTTAATGGACGCAAACGGCCATTCGTCAAAATTGGTTCATATAAATCTCATGATGTCGTCGAGTATTTACGAGGCCCTGGCGCAACTCGATCTTACTTCGTCACTCCAATGGCTGCAAAAAGGTTCATTGAATCTGCTCAAGAGTGGTTACTACCCGTTGATGATTACATGGACCAGTTTTGGTCAAATGAAGTTGCATGCCGAGGCATAATGCCAGGTATCGTTAAGAATGAAACAGATTTTGATTCTAGTGTCGGTAAGCTCGAGAAGAGTAATAAAATGAATCGATTTACGCGGGAGTTGTATTCTATGCAGTGTGCTCTTTGGCGTAAATGGTATTTATTTCGAAACCCACCGAAGAAGGTCGAATAGTATGCTTAACCTATTGATAAAATGGCTTTCTACGTCTGAACCCTCAAAAAAGTTTCGTGCCGAATTAGATCTAATGTTTTGGGGGGCGCAACACTCTCGTTTTATACGCAAGCGTTTTCAACGACGTATTTTTTATGTTTACAACTGTGATGTTAGCCATTTAGCCGATATTCATCCAACGGTATTGTTTCCTCACCCTTGTGGAATTGTTATCGGTTCGCAAGCAAAAGTGGAAAAAGGATGTCGAATTTATCAACAAGTCACGATTGGCAGCAACTTTGACTCCGATAACTCGATGGCCCACGTATCAGAAAATACTTACATTGGCAGTGGAGCAAAGGTTATTGGCGGGATTTCAATTGGTAAGAATTGTTACGTTGGAGCAAATGCGGTCATCACAAAAAACGTGGCTGATAACAGCTCGATAGTGGGCAATAATAAAAATATTACTAATAGAAAAGAAAGTTAAGCATAGATAATGAATCGTAATGTTTTACTTAAATTAAAGTCTGTAGATTGAACTTAAGGACATATTAATGATTGATGGAAAAAAGGTATTAGCGTTTATCCCTGCTCGAGGAGGGAGTAAACGGTTACCAAGAAAGAATATCTTGCCAATTGCAGGGAAGCCATTAATTGGTTGGTCTATTGATGCAGCGAAAGGTAGTGAGTATATTGATGATATATTTATAAGCACCGATGATCAGGAGATCGCTGATGTAGCTGCAGGTTTAGGGATTCCTGCACCTGAACTTCGTCCAGAGCACTTAGCTTCTGATACTGCATCGACAGCGAATGTCCTAACGTACACGTTGGAAAAATTTGGTACTGATTTTGATATAGTCATTTTACTCCAGCCCACGTCGCCTTTGCGTACTTCACAGCATATCGATCAGGCTCTAGAGCTATTTATTGAGAAACAAGCTTTTTCTGTTGTATCTGTGACACCGTGTGAGCATCCTCCACTTTGGTCAAATACATTGCCAGACAATGGTTCAATGGAAAACTTTATTCGACCAGAAGCTCTAAAGCGTTCTCAAGATTTAGGGAGCTTTTATCGCTTCAATGGTGCGATTTATATATTTGATGTTGAAAAATTACTCGAATACCAAGAGATCTGCTATACAAGTGAGTCCTTTGCTTTTGTCATGGAAAACAAGGACTCATTCGATATTGATCAACAGTTTGATTTTGAATTAGCTGAATTCTTCCTTAATAAAAGAAGATTGTCATAGGTCTTGAAAGCTATTAATTTTCTTTACATTAATAGCTTTGAATTGTCTTCTTAGTTCTGCTCGAAACACTTTATCAGGGTAGTCGTCGGATATCGTATAAATGGGCATATCTGGATAGAGTAGTCTGCAAGTAAACATTACTGTTGAGTAAGTCCCTACGAATCCAGAGAGCTCAATACCTTTATCGATTAACTCTATTTCTAGAGGATATTCACTACGGTGGTATATAATGTAGTTTTTTCTCTGTAGTGCCTCTTTTACTTCATCTCGCTCTGTTCGGTGAGGGAAGTATATAATTTTTCGATTGCTAGATTTAGCGAGAGTATCAAGCTCTTCAATGTATTGTGATACCGATTTTTGATACTTGTCACCAATAGCCCCTTGTCCTATATAGCCAATTGGAGCATCTCTATTATATAGAGATGGGTTACCATACTCCCCCTTTAATCTGCTCAAGGAATTCTTATGTACTTTATGTGCTATTGGGTTTAAGTTGAACATCGTAAAAACTTCTATATTATCAGAAGGTTTTAAATGACCAATTGGTTTGCATCCATTAAGGCGCACCACTAAATCTTGAAGGAATCTTGGGCGGTAAAAGTCTTGTTTAGGCAGTATATACTTCGGATACTCCGACAGTGTAAGCGTACCATCATCAAAATAGATTTGTTTCTCTATATTGAGGTTTTTTAGTATTAGTTTTGTTCGCCAGGCATTAAATTCAGCATAGAAAAAACGTTGTATCGAACGCCCATTTAGGGCTTTCTTGATCTCTTTGATTGCTTTAGGGACAGCAATACTACGGCTTCCCCTATCAATTGTGATGATATTTTGCCACTCTTTAGTATTAAAAAGTCGGTTTTGTTGCTCTAAACCAAGCGTACTTTTTTGGTTTACTAACAGTAAGATCGCCTCTTGGCTGTTAAAGAATGTTTTAGCCTCTAATGCACAAACATACTGCATGGGTGATGTAACAACAAAAAGATCCATAGTTTATAAAGTTACCTTATCCAGAGTTTTTTGTAATGAGCCTTTGTTTGAGTTTACGACAGAAAGTAGGCTTACCTTTACTTGATGGTAAGCACTTTCATTTTGAATTAGATCCTTTATTTCAATTGCGAGGGTGTTTACGTTTGAAGTAATCGCTATCGCAGAAAAAGATACCATCTTGTCAACAATTTCTTGGAAATTAAAATAGCTCGGCCCAGTGATGACTGGCACACCTAAAGCCGCAGGTTCTAAAACATTATGCCCACCGACTTTATCGCCAATTAAACTGCCGCCCATAAAGCATATATCGGCAGCTCCAATCAAGACCAGCATCTCACCCATGGTATCTCCAAGATAAACCTGGGTCGATGTTGTTACTTCTTCTTGGCTTGTACGGCGAGCAGTTTCAAAGCCTTGACCTTGACAAAGCTCAAATACATCTTCGAATCGCTCTGGATGTCGTGGAACAAGGATTAAGAGTGCATTTGGGTGAGATTCCAAGATTTTTTTGTGAGCTTCTAATACCTGCTCGTCTTCGCCTTTATGAGTGCTGGCTGCAATCCAAATCGGGCGCCCTAAACCAAGGGCGTTCCTTAGAGTTTTAGCTTTTTCTTTTACGTCGTCCGATATTTGAATATCAAACTTTATTGAGCCAGTAACAAAAAGTTTGTTTTTCTCGATACCTAAACGTTCGAAACGCTCAGCATCTGACTCGGCCTGGCAAAGGACCTTATCTATGCATGGATGTAAGAGGTCAAACAGTGGCTGCACTTTTGCGTAGTTCCTATACGACTTTTCAGAGAGGCGAGCGTTGACCACTATGATAGGGATTCCTGCATTGTGGACAGCATTAAGCGTGTTTGGCCAAAGCTCGGTTTCGATTATCAACATTTGCTTTGGGCGTTTTGCCTTTAGAAAGCCTTTCACGGCAAAATCGAAATCGATAGGCATGTAGCGGTGTTCAACTAAGTCGCCCAACTTAGCAATTTGTTCCGCACCAGTGCTGGTTGTGGTGGTGACCAAAATAGGTTGGGTTGGGTTTTGCTTTCTCAACTCTTTAATGAGTGGGATAGCGGCGATGCTTTCGCCTACCGAAACCGCATGAATCCAAATGGGGCGCTCAGTTGTCTCTAGCTTTGGAGTTATACCAAAATGCTCTTTCCATCGTTGACCAAACTTGGGCTTGTTCGGTTTACTTTTGTATAAACTAAACAATAGGAAAGGGGATGCAAGGGCAAGCAGTAAGGTGTAAAAAATGCGAATTAGCATGAACTTACCGTTATCGCTTCAAGTTTTTGGATACTATCTAGCACCTGTTTTGGTGATAACTCAGTTAAGCACTTCAAATGCTTAAACTGACACTCGCGCTTAAAGCATGGACGGCAGTCAATGTCCGTATGAACAATCTCTACATTCTCTGCAAGTGGTGGTGTGTATTTTGGTGAGGTGGAACCATAGACCGCAACAACGTTACAACCAACGGCAGTTGCCACGTGCATAAGACCCGAGTCATTTGCTACAACAGTCTGACATGCCGCCAGCAGATCAACGGCTTCAATCAGGCTAGTTTGTCCTGCTAGCACATGAATCTGATGCTGATGTTCTTGAGGTACTAATTGCTTGATGTTGTTGCAGGTCTCAAGGTCTTTTTGAGAACCAAATAGCCAGACTTGCTTTCCTGCATTCGCCATAGCTGATGCAACTTCTGCGTAATGTGTCTCTGGCCATTTTTTAGCAGGGCCAAACTCTGCGCCTGGGCACAGGCCAACAACAGGCGCCTCTTGATTGAGATTAAACTTAGCAATCGCTTCAGCTTGCTCTTTTTTGTCAATAAACAGGCTAGGGCGAGGTAGGGTTTCTAAACCACCCAATGAAGATGAGTCGATCATCTTTTCTTGTGAGTAAGCTAATGCCACATAGCGTTCAACCATAAACTGGAAAGATTTCATGTTTGGTCGCAAGTCATTAAGTAAACCGTAACGCATTTCACCTTTCCAACCAGTACGAAGAGGAATGTTTGCGAACCACGGGATAAGAGCAGATTTTGCAGACTTCGGCAGGATGTATGCGTGGTCATACTGTTTTTCTCGTAATGATTTACCGATTTCGCGACGACCGAGTAAGTTGAATTCACCATGACCAATAGGCATTTCAATGGCTTGATGGATCTCTGGCATGCGCTCTAGAATTGGTTTGCACCAACCTGATGCAATTACGTCAATTTGGCTGTCTGGATGGAGTTGCTTTAAGACAATATAAAGAGACTGCGACATCACCATATCGCCAACCCAAGAAGGGCCAATAATTAAGATTTTTTTCATTTGCTTATTTGCCAGTCAGTGTTGTATCTCGGTTTAAATAGGTTGTAATAGTTATTGCCGTCTTCTTGAGAGTGCAGAAGTTGTAGCACCCACATGTATTGTTCTGGTTTATTTGCGACAAAGTACTCGATTGCTTGATTACAAGTGCGAGCGTCTTGTTCTTCGCCTTTATTTAGCTCAAACGCCGGTAAGATTTCGATATCAAACGTACCATCTTCTGTATTCATAGAAGCAAACATAGGTAACACTTCAGCACGTGATAGTTTGGCAATTTTACCTAAGCCTGGAAGCGTTGCTTTTCTGGTCGCAAAGAAATCGACAAAAACGCTGTGTTCAGGACCATGATCCTGATCGGGTAAGTAATAGCCAATGTAACCGTCACGAACTGATTTCAAAAACGGCTTAACACCACCAGAGCGCTCGTAAACTCGGCCGCCATACTGAACTCTTTGCTTGTGCATTAACCAGTCAGCCACATCATTCTTTTGTTTTTTTGCCATCGCAGAGACAGGCATCCCCATTGAAGCCAGCAAAATAGCAGGAACATCGATAGCCCATGAGTGAGGAACCATCAAAATCACATTTTCATTGTTATCAATGTGCTGGCGTAGTACGTCCAATCCTCGAATTTGGCAGCGACTCTGAAGCCATTGAGGAGAACGTAAACTCAGCAACCCAAAACGAAAAAAGAACATTGCTGCGGTGTAGAGCGTTTTTTCAATTAAGGCTTCGCGTTCCTGAAACGTCTTTTCAGGGAAGCATAATTCAAAGTTGACTCGAGCCCTGTGAGCTGGCCCTTTATGAGATTTAGATAACTTTTTAGCTATTGTTTTGGCTAGCCACTTTTGGGCGCTAAGAGGCATTAAGGCTAGCGGCAAAAAGAGTATTACACCTAACCAAGTTCCCCAATACTTAGGCGACAAAAAATGACGCTCAAATTCAGGGTTATATGCTTTGGAGTCGTAGTCGTCACGTTTTGCTGTCATGGCGTGTTTAGTTACCTATCCGTCTTGATTTACTCGTATGAGAGCAAGGTGATAAAAATAAGATAGTAGAGATGATACAGGCTATTGGAATGGAGTAAAGGTGGCAACAAGTGATGCTACCACCTAAATGATGCTTAACTGTTTTGGATAGTTAAGTATTCGGCAACGCCTTCTGCAACCGTCTTGAACTCAACATCGCAACCGGCAGCGCGTAGCTTGGTAAGGTCTGCTTGCGTGAACTCTTGATAGGCACCTTTTAGATGTTCTGGGAAAGGAATAGTTTCAATCTCGCCTTTTCCATGATGGGCAATGACCGCTTTTGCTACTTCTTCAAAAGACTCTGCACGACCAGTACCACAGTTGAAGATGCCAGAAACTCCATTTTCAAGGAACCACAGGTTTACTTTACATACATCACCAACGTAAACGAAATCACGCTTAAAAGACTCGCTACCTGCAAACAGTTTTGGATTTTCACCTGCGTTTAGTTGGTTGTTCAGATGGAACGCAACAGATGCCATGCTGCCTTTGTGATCTTCACGTGGGCCATATACGTTGAAGTAACGGAAGCCGGTGATTTGAGAAAGGGTTTCACCATGTTCTTCAGCGTCTTGCCATAGACGACGAACGTAGTTGTCAAACTGTTGTTTCGAGTAACCGTATACATTCAGTGCGCCTTCATATTCGCGTTCTTCAACGAAAGTATCTGTATCGCCGTAAGTGGCTGCGGAAGAGGCGTATAGAAATGGAATTTCACGATCTAAACAGTAATGAAGCAGCTCTTTAGAGTACTCGTAATTGTTTAGCATCATGTATTTACCATCCCACTCTGTCGTTGCAGAGCAAGCGCCTTCGTGGAAAATTGCTTCGATTGGACCGAAATCGTCACCAGCCATAATTTGGGTCAGAAAGTCGTCACGATCCATGTAATCTGTGATGTCCAGATCAACTAAGTTCTTAAACTTTTTGCCATTTTTTAGGTTGTCGACAACCAGGATATCGTTAATACCAGCTTCGTTTAGTGCTTTAACAATGTTGCTGCCGATCATGCCAGCTCCACCAGTTACGATGATCAT",
+            "length": 11975,
+            "complete": false,
+            "type": "contig",
+            "topology": "linear",
+            "simple_id": "OLU4_1",
+            "orig_id": "OLU4",
+            "orig_description": "MIQW01000032.1:168195-180169"
+        }
+    ],
+    "run": {
+        "start": "2025-03-20 15:17:20",
+        "end": "2025-03-20 15:17:24",
+        "duration": "0.06 min"
+    },
+    "version": {
+        "bakta": "1.10.4",
+        "db": {
+            "version": "5.1",
+            "type": "full"
+        }
+    }
+}
